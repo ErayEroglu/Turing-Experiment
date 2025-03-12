@@ -1,1670 +1,860 @@
 {
-  "inputs/Day_1_Ivy.md": {
-    "total_games": 10,
-    "correct_predictions": 2,
-    "accuracy": 0.2,
+  "summary": {
+    "total_files": 6,
+    "files_processed": 6,
+    "total_games": 60,
+    "correct_predictions": 6,
     "model": "gemini-1.5-pro",
-    "game_results": [
-      {
-        "game_id": "1003",
-        "anonymized_game": {
+    "start_time": "2025-03-12 23:32:02",
+    "average_accuracy": 0.1,
+    "end_time": "2025-03-12 23:36:09"
+  },
+  "results": {
+    "Day_1_Ivy.md": {
+      "total_games": 10,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "model": "gemini-1.5-pro",
+      "avg_latency": 1.2350983089870877,
+      "api_errors": 0,
+      "game_results": [
+        {
           "game_id": "1003",
-          "color_to_user": {
-            "Purple": "user1",
-            "Orange": "user2",
-            "Black": "user3"
-          },
-          "user_to_color": {
-            "user1": "Purple",
-            "user2": "Orange",
-            "user3": "Black"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Purple": "human",
-            "Orange": "human",
-            "Black": "bot"
-          },
-          "correct_bot_color": "Black"
+          "prediction": "user1",
+          "raw_response": "user1",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 1.3925890922546387,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Purple": true,
+            "Orange": null
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1103",
-        "anonymized_game": {
+        {
           "game_id": "1103",
-          "color_to_user": {
-            "Purple": "user1",
-            "Orange": "user2",
-            "Black": "user3"
-          },
-          "user_to_color": {
-            "user1": "Purple",
-            "user2": "Orange",
-            "user3": "Black"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Purple": "human",
-            "Orange": "human",
-            "Black": "bot"
-          },
-          "correct_bot_color": "Black"
+          "prediction": "user3",
+          "raw_response": "user3",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 0.7351069450378418,
+          "correct_bot_user": "user2",
+          "human_accusations": {
+            "Purple": false,
+            "Orange": null
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1203",
-        "anonymized_game": {
+        {
           "game_id": "1203",
-          "color_to_user": {
-            "Black": "user1",
-            "Purple": "user2",
-            "Blue": "user3"
-          },
-          "user_to_color": {
-            "user1": "Black",
-            "user2": "Purple",
-            "user3": "Blue"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Black": "human",
-            "Purple": "human",
-            "Blue": "bot"
-          },
-          "correct_bot_color": "Blue"
+          "prediction": "user3",
+          "raw_response": "user3",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 0.8390111923217773,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Black": true,
+            "Purple": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1302",
-        "anonymized_game": {
+        {
           "game_id": "1302",
-          "color_to_user": {
-            "Green": "user1",
-            "Black": "user2",
-            "Blue": "user3"
-          },
-          "user_to_color": {
-            "user1": "Green",
-            "user2": "Black",
-            "user3": "Blue"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Green": "human",
-            "Black": "human",
-            "Blue": "bot"
-          },
-          "correct_bot_color": "Blue"
+          "prediction": "user3",
+          "raw_response": "user3",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 1.4574389457702637,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Green": true,
+            "Black": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1403",
-        "anonymized_game": {
+        {
           "game_id": "1403",
-          "color_to_user": {
-            "Green": "user1",
-            "Orange": "user2",
-            "Black": "user3"
-          },
-          "user_to_color": {
-            "user1": "Green",
-            "user2": "Orange",
-            "user3": "Black"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Green": "human",
-            "Orange": "human",
-            "Black": "bot"
-          },
-          "correct_bot_color": "Black"
+          "prediction": "user3",
+          "raw_response": "user3",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 1.4755527973175049,
+          "correct_bot_user": "user2",
+          "human_accusations": {
+            "Green": true,
+            "Orange": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1502",
-        "anonymized_game": {
+        {
           "game_id": "1502",
-          "color_to_user": {
-            "Green": "user1",
-            "Orange": "user2",
-            "Red": "user3"
-          },
-          "user_to_color": {
-            "user1": "Green",
-            "user2": "Orange",
-            "user3": "Red"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Green": "human",
-            "Orange": "human",
-            "Red": "bot"
-          },
-          "correct_bot_color": "Red"
+          "prediction": "user1",
+          "raw_response": "user1",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 1.3165562152862549,
+          "correct_bot_user": "user2",
+          "human_accusations": {
+            "Green": true,
+            "Orange": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user1",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1602",
-        "anonymized_game": {
+        {
           "game_id": "1602",
-          "color_to_user": {
-            "Red": "user1",
-            "Black": "user2",
-            "Orange": "user3"
-          },
-          "user_to_color": {
-            "user1": "Red",
-            "user2": "Black",
-            "user3": "Orange"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Red": "human",
-            "Black": "human",
-            "Orange": "bot"
-          },
-          "correct_bot_color": "Orange"
+          "prediction": "user3",
+          "raw_response": "user3",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 1.293208122253418,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Red": true,
+            "Black": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1701",
-        "anonymized_game": {
+        {
           "game_id": "1701",
-          "color_to_user": {
-            "Green": "user1",
-            "Orange": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Green",
-            "user2": "Orange",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Green": "human",
-            "Orange": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.590359926223755,
+          "correct_bot_user": "user2",
+          "human_accusations": {
+            "Green": true,
+            "Orange": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user1",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1802",
-        "anonymized_game": {
+        {
           "game_id": "1802",
-          "color_to_user": {
-            "Orange": "user1",
-            "Green": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Orange",
-            "user2": "Green",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Orange": "human",
-            "Green": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
+          "prediction": "user2",
+          "raw_response": "user2",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 5.662325143814087,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Orange": true,
+            "Green": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1901",
-        "anonymized_game": {
+        {
           "game_id": "1901",
-          "color_to_user": {
-            "Red": "user1",
-            "Green": "user2",
-            "Orange": "user3"
-          },
-          "user_to_color": {
-            "user1": "Red",
-            "user2": "Green",
-            "user3": "Orange"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Red": "human",
-            "Green": "human",
-            "Orange": "bot"
-          },
-          "correct_bot_color": "Orange"
-        },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      }
-    ]
-  },
-  "inputs/Day_1_Hal.md": {
-    "total_games": 10,
-    "correct_predictions": 3,
-    "accuracy": 0.3,
-    "model": "gemini-1.5-pro",
-    "game_results": [
-      {
-        "game_id": "1002",
-        "anonymized_game": {
+          "prediction": "user2",
+          "raw_response": "user2",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 3.5584828853607178,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Red": true,
+            "Green": true
+          }
+        }
+      ],
+      "timestamp": "2025-03-12 23:32:33"
+    },
+    "Day_1_Hal.md": {
+      "total_games": 10,
+      "correct_predictions": 1,
+      "accuracy": 0.1,
+      "model": "gemini-1.5-pro",
+      "avg_latency": 1.093674659729004,
+      "api_errors": 0,
+      "game_results": [
+        {
           "game_id": "1002",
-          "color_to_user": {
-            "Red": "user1",
-            "Green": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Red",
-            "user2": "Green",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Red": "human",
-            "Green": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
+          "prediction": "user2",
+          "raw_response": "user2",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 4.992640018463135,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Red": true,
+            "Green": null
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1102",
-        "anonymized_game": {
+        {
           "game_id": "1102",
-          "color_to_user": {
-            "Orange": "user1",
-            "Black": "user2",
-            "Green": "user3"
-          },
-          "user_to_color": {
-            "user1": "Orange",
-            "user2": "Black",
-            "user3": "Green"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Orange": "human",
-            "Black": "human",
-            "Green": "bot"
-          },
-          "correct_bot_color": "Green"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.04218602180481,
+          "correct_bot_user": "user2",
+          "human_accusations": {
+            "Orange": true,
+            "Black": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user1",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1202",
-        "anonymized_game": {
+        {
           "game_id": "1202",
-          "color_to_user": {
-            "Green": "user1",
-            "Red": "user2",
-            "Blue": "user3"
-          },
-          "user_to_color": {
-            "user1": "Green",
-            "user2": "Red",
-            "user3": "Blue"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Green": "human",
-            "Red": "human",
-            "Blue": "bot"
-          },
-          "correct_bot_color": "Blue"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 3.9939770698547363,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Green": true,
+            "Red": false
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user1",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1302",
-        "anonymized_game": {
+        {
           "game_id": "1302",
-          "color_to_user": {
-            "Black": "user1",
-            "Green": "user2",
-            "Blue": "user3"
-          },
-          "user_to_color": {
-            "user1": "Black",
-            "user2": "Green",
-            "user3": "Blue"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Black": "human",
-            "Green": "human",
-            "Blue": "bot"
-          },
-          "correct_bot_color": "Blue"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 5.19636082649231,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Black": true,
+            "Green": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1402",
-        "anonymized_game": {
+        {
           "game_id": "1402",
-          "color_to_user": {
-            "Purple": "user1",
-            "Orange": "user2",
-            "Green": "user3"
-          },
-          "user_to_color": {
-            "user1": "Purple",
-            "user2": "Orange",
-            "user3": "Green"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Purple": "human",
-            "Orange": "human",
-            "Green": "bot"
-          },
-          "correct_bot_color": "Green"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.738219738006592,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Purple": false,
+            "Orange": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1502",
-        "anonymized_game": {
+        {
           "game_id": "1502",
-          "color_to_user": {
-            "Orange": "user1",
-            "Green": "user2",
-            "Red": "user3"
-          },
-          "user_to_color": {
-            "user1": "Orange",
-            "user2": "Green",
-            "user3": "Red"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Orange": "human",
-            "Green": "human",
-            "Red": "bot"
-          },
-          "correct_bot_color": "Red"
+          "prediction": "user2",
+          "raw_response": "user2",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 2.7958381175994873,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Orange": true,
+            "Green": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user1",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1601",
-        "anonymized_game": {
+        {
           "game_id": "1601",
-          "color_to_user": {
-            "Black": "user1",
-            "Green": "user2",
-            "Blue": "user3"
-          },
-          "user_to_color": {
-            "user1": "Black",
-            "user2": "Green",
-            "user3": "Blue"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Black": "human",
-            "Green": "human",
-            "Blue": "bot"
-          },
-          "correct_bot_color": "Blue"
+          "prediction": "user3",
+          "raw_response": "user3",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 0.9309041500091553,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Black": false,
+            "Green": false
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1703",
-        "anonymized_game": {
+        {
           "game_id": "1703",
-          "color_to_user": {
-            "Red": "user1",
-            "Black": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Red",
-            "user2": "Black",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Red": "human",
-            "Black": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
+          "prediction": "user3",
+          "raw_response": "user3",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 0.9042990207672119,
+          "correct_bot_user": "user2",
+          "human_accusations": {
+            "Red": true,
+            "Black": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1801",
-        "anonymized_game": {
+        {
           "game_id": "1801",
-          "color_to_user": {
-            "Blue": "user1",
-            "Black": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Blue",
-            "user2": "Black",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Blue": "human",
-            "Black": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
+          "prediction": "user2",
+          "raw_response": "user2",
+          "error": null,
+          "is_correct": true,
+          "processing_time": 1.0337820053100586,
+          "correct_bot_user": "user2",
+          "human_accusations": {
+            "Blue": true,
+            "Black": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1903",
-        "anonymized_game": {
+        {
           "game_id": "1903",
-          "color_to_user": {
-            "Black": "user1",
-            "Purple": "user2",
-            "Green": "user3"
-          },
-          "user_to_color": {
-            "user1": "Black",
-            "user2": "Purple",
-            "user3": "Green"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Black": "human",
-            "Purple": "human",
-            "Green": "bot"
-          },
-          "correct_bot_color": "Green"
-        },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      }
-    ]
-  },
-  "inputs/Day_1_Gus.md": {
-    "total_games": 10,
-    "correct_predictions": 3,
-    "accuracy": 0.3,
-    "model": "gemini-1.5-pro",
-    "game_results": [
-      {
-        "game_id": "1001",
-        "anonymized_game": {
+          "prediction": "user3",
+          "raw_response": "user3",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 1.4676921367645264,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Black": true,
+            "Purple": false
+          }
+        }
+      ],
+      "timestamp": "2025-03-12 23:33:12"
+    },
+    "Day_1_Gus.md": {
+      "total_games": 10,
+      "correct_predictions": 1,
+      "accuracy": 0.1,
+      "model": "gemini-1.5-pro",
+      "avg_latency": 1.3113585710525513,
+      "api_errors": 0,
+      "game_results": [
+        {
           "game_id": "1001",
-          "color_to_user": {
-            "Red": "user1",
-            "Green": "user2",
-            "Orange": "user3"
-          },
-          "user_to_color": {
-            "user1": "Red",
-            "user2": "Green",
-            "user3": "Orange"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Red": "human",
-            "Green": "human",
-            "Orange": "bot"
-          },
-          "correct_bot_color": "Orange"
+          "prediction": "user3",
+          "raw_response": "user3",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 1.421247959136963,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Red": false,
+            "Green": false
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1101",
-        "anonymized_game": {
+        {
           "game_id": "1101",
-          "color_to_user": {
-            "Blue": "user1",
-            "Purple": "user2",
-            "Red": "user3"
-          },
-          "user_to_color": {
-            "user1": "Blue",
-            "user2": "Purple",
-            "user3": "Red"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Blue": "human",
-            "Purple": "human",
-            "Red": "bot"
-          },
-          "correct_bot_color": "Red"
+          "prediction": "user1",
+          "raw_response": "user1",
+          "error": null,
+          "is_correct": true,
+          "processing_time": 1.486975908279419,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Blue": true,
+            "Purple": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user1",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1201",
-        "anonymized_game": {
+        {
           "game_id": "1201",
-          "color_to_user": {
-            "Orange": "user1",
-            "Purple": "user2",
-            "Black": "user3"
-          },
-          "user_to_color": {
-            "user1": "Orange",
-            "user2": "Purple",
-            "user3": "Black"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Orange": "human",
-            "Purple": "human",
-            "Black": "bot"
-          },
-          "correct_bot_color": "Black"
+          "prediction": "user2",
+          "raw_response": "user2",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 2.191737174987793,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Orange": false,
+            "Purple": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1301",
-        "anonymized_game": {
+        {
           "game_id": "1301",
-          "color_to_user": {
-            "Orange": "user1",
-            "Black": "user2",
-            "Blue": "user3"
-          },
-          "user_to_color": {
-            "user1": "Orange",
-            "user2": "Black",
-            "user3": "Blue"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Orange": "human",
-            "Black": "human",
-            "Blue": "bot"
-          },
-          "correct_bot_color": "Blue"
+          "prediction": "user1",
+          "raw_response": "user1",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 5.854979753494263,
+          "correct_bot_user": "user2",
+          "human_accusations": {
+            "Orange": null,
+            "Black": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1401",
-        "anonymized_game": {
+        {
           "game_id": "1401",
-          "color_to_user": {
-            "Orange": "user1",
-            "Red": "user2",
-            "Green": "user3"
-          },
-          "user_to_color": {
-            "user1": "Orange",
-            "user2": "Red",
-            "user3": "Green"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Orange": "human",
-            "Red": "human",
-            "Green": "bot"
-          },
-          "correct_bot_color": "Green"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 5.427423000335693,
+          "correct_bot_user": "user2",
+          "human_accusations": {
+            "Orange": true,
+            "Red": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1501",
-        "anonymized_game": {
+        {
           "game_id": "1501",
-          "color_to_user": {
-            "Blue": "user1",
-            "Black": "user2",
-            "Green": "user3"
-          },
-          "user_to_color": {
-            "user1": "Blue",
-            "user2": "Black",
-            "user3": "Green"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Blue": "human",
-            "Black": "human",
-            "Green": "bot"
-          },
-          "correct_bot_color": "Green"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.040313005447388,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Blue": true,
+            "Black": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1601",
-        "anonymized_game": {
+        {
           "game_id": "1601",
-          "color_to_user": {
-            "Green": "user1",
-            "Black": "user2",
-            "Blue": "user3"
-          },
-          "user_to_color": {
-            "user1": "Green",
-            "user2": "Black",
-            "user3": "Blue"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Green": "human",
-            "Black": "human",
-            "Blue": "bot"
-          },
-          "correct_bot_color": "Blue"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.499449968338013,
+          "correct_bot_user": "user2",
+          "human_accusations": {
+            "Green": false,
+            "Black": false
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user1",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1701",
-        "anonymized_game": {
+        {
           "game_id": "1701",
-          "color_to_user": {
-            "Orange": "user1",
-            "Green": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Orange",
-            "user2": "Green",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Orange": "human",
-            "Green": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.553354024887085,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Orange": true,
+            "Green": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user1",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1801",
-        "anonymized_game": {
+        {
           "game_id": "1801",
-          "color_to_user": {
-            "Black": "user1",
-            "Blue": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Black",
-            "user2": "Blue",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Black": "human",
-            "Blue": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 3.7962307929992676,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Black": true,
+            "Blue": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1901",
-        "anonymized_game": {
+        {
           "game_id": "1901",
-          "color_to_user": {
-            "Green": "user1",
-            "Red": "user2",
-            "Orange": "user3"
-          },
-          "user_to_color": {
-            "user1": "Green",
-            "user2": "Red",
-            "user3": "Orange"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Green": "human",
-            "Red": "human",
-            "Orange": "bot"
-          },
-          "correct_bot_color": "Orange"
-        },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      }
-    ]
-  },
-  "inputs/Day_1_Kim.md": {
-    "total_games": 10,
-    "correct_predictions": 3,
-    "accuracy": 0.3,
-    "model": "gemini-1.5-pro",
-    "game_results": [
-      {
-        "game_id": "1002",
-        "anonymized_game": {
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.185854196548462,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Green": true,
+            "Red": true
+          }
+        }
+      ],
+      "timestamp": "2025-03-12 23:33:59"
+    },
+    "Day_1_Kim.md": {
+      "total_games": 10,
+      "correct_predictions": 2,
+      "accuracy": 0.2,
+      "model": "gemini-1.5-pro",
+      "avg_latency": 0.7911968231201172,
+      "api_errors": 0,
+      "game_results": [
+        {
           "game_id": "1002",
-          "color_to_user": {
-            "Green": "user1",
-            "Red": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Green",
-            "user2": "Red",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Green": "human",
-            "Red": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
+          "prediction": "user3",
+          "raw_response": "user3",
+          "error": null,
+          "is_correct": true,
+          "processing_time": 4.742390871047974,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Green": null,
+            "Red": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user1",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1101",
-        "anonymized_game": {
+        {
           "game_id": "1101",
-          "color_to_user": {
-            "Purple": "user1",
-            "Blue": "user2",
-            "Red": "user3"
-          },
-          "user_to_color": {
-            "user1": "Purple",
-            "user2": "Blue",
-            "user3": "Red"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Purple": "human",
-            "Blue": "human",
-            "Red": "bot"
-          },
-          "correct_bot_color": "Red"
+          "prediction": "user2",
+          "raw_response": "user2",
+          "error": null,
+          "is_correct": true,
+          "processing_time": 0.6113638877868652,
+          "correct_bot_user": "user2",
+          "human_accusations": {
+            "Purple": true,
+            "Blue": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1202",
-        "anonymized_game": {
+        {
           "game_id": "1202",
-          "color_to_user": {
-            "Red": "user1",
-            "Green": "user2",
-            "Blue": "user3"
-          },
-          "user_to_color": {
-            "user1": "Red",
-            "user2": "Green",
-            "user3": "Blue"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Red": "human",
-            "Green": "human",
-            "Blue": "bot"
-          },
-          "correct_bot_color": "Blue"
+          "prediction": "user2",
+          "raw_response": "user2",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 0.7381250858306885,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Red": false,
+            "Green": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1303",
-        "anonymized_game": {
+        {
           "game_id": "1303",
-          "color_to_user": {
-            "Black": "user1",
-            "Red": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Black",
-            "user2": "Red",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Black": "human",
-            "Red": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.106359004974365,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Black": true,
+            "Red": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1401",
-        "anonymized_game": {
+        {
           "game_id": "1401",
-          "color_to_user": {
-            "Red": "user1",
-            "Orange": "user2",
-            "Green": "user3"
-          },
-          "user_to_color": {
-            "user1": "Red",
-            "user2": "Orange",
-            "user3": "Green"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Red": "human",
-            "Orange": "human",
-            "Green": "bot"
-          },
-          "correct_bot_color": "Green"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 3.945481300354004,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Red": true,
+            "Orange": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1503",
-        "anonymized_game": {
+        {
           "game_id": "1503",
-          "color_to_user": {
-            "Red": "user1",
-            "Green": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Red",
-            "user2": "Green",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Red": "human",
-            "Green": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.043551921844482,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Red": true,
+            "Green": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user1",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1602",
-        "anonymized_game": {
+        {
           "game_id": "1602",
-          "color_to_user": {
-            "Black": "user1",
-            "Red": "user2",
-            "Orange": "user3"
-          },
-          "user_to_color": {
-            "user1": "Black",
-            "user2": "Red",
-            "user3": "Orange"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Black": "human",
-            "Red": "human",
-            "Orange": "bot"
-          },
-          "correct_bot_color": "Orange"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.126319885253906,
+          "correct_bot_user": "user2",
+          "human_accusations": {
+            "Black": true,
+            "Red": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1702",
-        "anonymized_game": {
+        {
           "game_id": "1702",
-          "color_to_user": {
-            "Purple": "user1",
-            "Black": "user2",
-            "Blue": "user3"
-          },
-          "user_to_color": {
-            "user1": "Purple",
-            "user2": "Black",
-            "user3": "Blue"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Purple": "human",
-            "Black": "human",
-            "Blue": "bot"
-          },
-          "correct_bot_color": "Blue"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 3.9511189460754395,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Purple": true,
+            "Black": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1802",
-        "anonymized_game": {
+        {
           "game_id": "1802",
-          "color_to_user": {
-            "Green": "user1",
-            "Orange": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Green",
-            "user2": "Orange",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Green": "human",
-            "Orange": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.112707853317261,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Green": true,
+            "Orange": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1902",
-        "anonymized_game": {
+        {
           "game_id": "1902",
-          "color_to_user": {
-            "Black": "user1",
-            "Blue": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Black",
-            "user2": "Blue",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Black": "human",
-            "Blue": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
-        },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      }
-    ]
-  },
-  "inputs/Day_1_Jan.md": {
-    "total_games": 10,
-    "correct_predictions": 3,
-    "accuracy": 0.3,
-    "model": "gemini-1.5-pro",
-    "game_results": [
-      {
-        "game_id": "1003",
-        "anonymized_game": {
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 3.773275136947632,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Black": true,
+            "Blue": true
+          }
+        }
+      ],
+      "timestamp": "2025-03-12 23:34:42"
+    },
+    "Day_1_Jan.md": {
+      "total_games": 10,
+      "correct_predictions": 0,
+      "accuracy": 0.0,
+      "model": "gemini-1.5-pro",
+      "avg_latency": 1.070330023765564,
+      "api_errors": 0,
+      "game_results": [
+        {
           "game_id": "1003",
-          "color_to_user": {
-            "Orange": "user1",
-            "Purple": "user2",
-            "Black": "user3"
-          },
-          "user_to_color": {
-            "user1": "Orange",
-            "user2": "Purple",
-            "user3": "Black"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Orange": "human",
-            "Purple": "human",
-            "Black": "bot"
-          },
-          "correct_bot_color": "Black"
+          "prediction": "user1",
+          "raw_response": "user1",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 1.3876957893371582,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Orange": null,
+            "Purple": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1102",
-        "anonymized_game": {
+        {
           "game_id": "1102",
-          "color_to_user": {
-            "Black": "user1",
-            "Orange": "user2",
-            "Green": "user3"
-          },
-          "user_to_color": {
-            "user1": "Black",
-            "user2": "Orange",
-            "user3": "Green"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Black": "human",
-            "Orange": "human",
-            "Green": "bot"
-          },
-          "correct_bot_color": "Green"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.142804861068726,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Black": true,
+            "Orange": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user1",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1203",
-        "anonymized_game": {
+        {
           "game_id": "1203",
-          "color_to_user": {
-            "Purple": "user1",
-            "Black": "user2",
-            "Blue": "user3"
-          },
-          "user_to_color": {
-            "user1": "Purple",
-            "user2": "Black",
-            "user3": "Blue"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Purple": "human",
-            "Black": "human",
-            "Blue": "bot"
-          },
-          "correct_bot_color": "Blue"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.1353020668029785,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Purple": true,
+            "Black": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1301",
-        "anonymized_game": {
+        {
           "game_id": "1301",
-          "color_to_user": {
-            "Black": "user1",
-            "Orange": "user2",
-            "Blue": "user3"
-          },
-          "user_to_color": {
-            "user1": "Black",
-            "user2": "Orange",
-            "user3": "Blue"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Black": "human",
-            "Orange": "human",
-            "Blue": "bot"
-          },
-          "correct_bot_color": "Blue"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 3.8676042556762695,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Black": true,
+            "Orange": null
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1402",
-        "anonymized_game": {
+        {
           "game_id": "1402",
-          "color_to_user": {
-            "Orange": "user1",
-            "Purple": "user2",
-            "Green": "user3"
-          },
-          "user_to_color": {
-            "user1": "Orange",
-            "user2": "Purple",
-            "user3": "Green"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Orange": "human",
-            "Purple": "human",
-            "Green": "bot"
-          },
-          "correct_bot_color": "Green"
+          "prediction": "user2",
+          "raw_response": "user2",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 4.671823024749756,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Orange": true,
+            "Purple": false
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1501",
-        "anonymized_game": {
+        {
           "game_id": "1501",
-          "color_to_user": {
-            "Black": "user1",
-            "Blue": "user2",
-            "Green": "user3"
-          },
-          "user_to_color": {
-            "user1": "Black",
-            "user2": "Blue",
-            "user3": "Green"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Black": "human",
-            "Blue": "human",
-            "Green": "bot"
-          },
-          "correct_bot_color": "Green"
+          "prediction": "user2",
+          "raw_response": "user2",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 1.0972011089324951,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Black": true,
+            "Blue": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user1",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1603",
-        "anonymized_game": {
+        {
           "game_id": "1603",
-          "color_to_user": {
-            "Purple": "user1",
-            "Blue": "user2",
-            "Red": "user3"
-          },
-          "user_to_color": {
-            "user1": "Purple",
-            "user2": "Blue",
-            "user3": "Red"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Purple": "human",
-            "Blue": "human",
-            "Red": "bot"
-          },
-          "correct_bot_color": "Red"
+          "prediction": "user3",
+          "raw_response": "user3",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 0.7436339855194092,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Purple": null,
+            "Blue": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1702",
-        "anonymized_game": {
+        {
           "game_id": "1702",
-          "color_to_user": {
-            "Black": "user1",
-            "Purple": "user2",
-            "Blue": "user3"
-          },
-          "user_to_color": {
-            "user1": "Black",
-            "user2": "Purple",
-            "user3": "Blue"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Black": "human",
-            "Purple": "human",
-            "Blue": "bot"
-          },
-          "correct_bot_color": "Blue"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 3.7353551387786865,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Black": true,
+            "Purple": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1803",
-        "anonymized_game": {
+        {
           "game_id": "1803",
-          "color_to_user": {
-            "Blue": "user1",
-            "Green": "user2",
-            "Orange": "user3"
-          },
-          "user_to_color": {
-            "user1": "Blue",
-            "user2": "Green",
-            "user3": "Orange"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Blue": "human",
-            "Green": "human",
-            "Orange": "bot"
-          },
-          "correct_bot_color": "Orange"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.242240905761719,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Blue": true,
+            "Green": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1902",
-        "anonymized_game": {
+        {
           "game_id": "1902",
-          "color_to_user": {
-            "Blue": "user1",
-            "Black": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Blue",
-            "user2": "Black",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Blue": "human",
-            "Black": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
-        },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      }
-    ]
-  },
-  "inputs/Day_1_Leo.md": {
-    "total_games": 10,
-    "correct_predictions": 2,
-    "accuracy": 0.2,
-    "model": "gemini-1.5-pro",
-    "game_results": [
-      {
-        "game_id": "1001",
-        "anonymized_game": {
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 3.985089063644409,
+          "correct_bot_user": "user2",
+          "human_accusations": {
+            "Blue": true,
+            "Black": true
+          }
+        }
+      ],
+      "timestamp": "2025-03-12 23:35:23"
+    },
+    "Day_1_Leo.md": {
+      "total_games": 10,
+      "correct_predictions": 2,
+      "accuracy": 0.2,
+      "model": "gemini-1.5-pro",
+      "avg_latency": 0.8260374069213867,
+      "api_errors": 0,
+      "game_results": [
+        {
           "game_id": "1001",
-          "color_to_user": {
-            "Green": "user1",
-            "Red": "user2",
-            "Orange": "user3"
-          },
-          "user_to_color": {
-            "user1": "Green",
-            "user2": "Red",
-            "user3": "Orange"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Green": "human",
-            "Red": "human",
-            "Orange": "bot"
-          },
-          "correct_bot_color": "Orange"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 3.7951290607452393,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Green": false,
+            "Red": false
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1103",
-        "anonymized_game": {
+        {
           "game_id": "1103",
-          "color_to_user": {
-            "Orange": "user1",
-            "Purple": "user2",
-            "Black": "user3"
-          },
-          "user_to_color": {
-            "user1": "Orange",
-            "user2": "Purple",
-            "user3": "Black"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Orange": "human",
-            "Purple": "human",
-            "Black": "bot"
-          },
-          "correct_bot_color": "Black"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.093257904052734,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Orange": null,
+            "Purple": false
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user1",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1201",
-        "anonymized_game": {
+        {
           "game_id": "1201",
-          "color_to_user": {
-            "Purple": "user1",
-            "Orange": "user2",
-            "Black": "user3"
-          },
-          "user_to_color": {
-            "user1": "Purple",
-            "user2": "Orange",
-            "user3": "Black"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Purple": "human",
-            "Orange": "human",
-            "Black": "bot"
-          },
-          "correct_bot_color": "Black"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.0546369552612305,
+          "correct_bot_user": "user2",
+          "human_accusations": {
+            "Purple": true,
+            "Orange": false
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1303",
-        "anonymized_game": {
+        {
           "game_id": "1303",
-          "color_to_user": {
-            "Red": "user1",
-            "Black": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Red",
-            "user2": "Black",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Red": "human",
-            "Black": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 4.091145992279053,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Red": true,
+            "Black": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1403",
-        "anonymized_game": {
+        {
           "game_id": "1403",
-          "color_to_user": {
-            "Orange": "user1",
-            "Green": "user2",
-            "Black": "user3"
-          },
-          "user_to_color": {
-            "user1": "Orange",
-            "user2": "Green",
-            "user3": "Black"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Orange": "human",
-            "Green": "human",
-            "Black": "bot"
-          },
-          "correct_bot_color": "Black"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 8.925341129302979,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Orange": true,
+            "Green": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user1",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1503",
-        "anonymized_game": {
+        {
           "game_id": "1503",
-          "color_to_user": {
-            "Green": "user1",
-            "Red": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Green",
-            "user2": "Red",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Green": "human",
-            "Red": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 3.9593617916107178,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Green": true,
+            "Red": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user1",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1603",
-        "anonymized_game": {
+        {
           "game_id": "1603",
-          "color_to_user": {
-            "Blue": "user1",
-            "Purple": "user2",
-            "Red": "user3"
-          },
-          "user_to_color": {
-            "user1": "Blue",
-            "user2": "Purple",
-            "user3": "Red"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Blue": "human",
-            "Purple": "human",
-            "Red": "bot"
-          },
-          "correct_bot_color": "Red"
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "is_correct": false,
+          "processing_time": 3.967349052429199,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Blue": true,
+            "Purple": null
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1703",
-        "anonymized_game": {
+        {
           "game_id": "1703",
-          "color_to_user": {
-            "Black": "user1",
-            "Red": "user2",
-            "Purple": "user3"
-          },
-          "user_to_color": {
-            "user1": "Black",
-            "user2": "Red",
-            "user3": "Purple"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Black": "human",
-            "Red": "human",
-            "Purple": "bot"
-          },
-          "correct_bot_color": "Purple"
+          "prediction": "user2",
+          "raw_response": "user2",
+          "error": null,
+          "is_correct": true,
+          "processing_time": 2.397998094558716,
+          "correct_bot_user": "user2",
+          "human_accusations": {
+            "Black": true,
+            "Red": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1803",
-        "anonymized_game": {
+        {
           "game_id": "1803",
-          "color_to_user": {
-            "Green": "user1",
-            "Blue": "user2",
-            "Orange": "user3"
-          },
-          "user_to_color": {
-            "user1": "Green",
-            "user2": "Blue",
-            "user3": "Orange"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Green": "human",
-            "Blue": "human",
-            "Orange": "bot"
-          },
-          "correct_bot_color": "Orange"
+          "prediction": "user1",
+          "raw_response": "user1",
+          "error": null,
+          "is_correct": true,
+          "processing_time": 0.6961522102355957,
+          "correct_bot_user": "user1",
+          "human_accusations": {
+            "Green": true,
+            "Blue": true
+          }
         },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user3",
-        "correct_bot": true,
-        "correct_bot_user": "user3"
-      },
-      {
-        "game_id": "1903",
-        "anonymized_game": {
+        {
           "game_id": "1903",
-          "color_to_user": {
-            "Purple": "user1",
-            "Black": "user2",
-            "Green": "user3"
-          },
-          "user_to_color": {
-            "user1": "Purple",
-            "user2": "Black",
-            "user3": "Green"
-          },
-          "anonymized_chat": [],
-          "original_users": {
-            "Purple": "human",
-            "Black": "human",
-            "Green": "bot"
-          },
-          "correct_bot_color": "Green"
-        },
-        "prompt": "You are participating in a Turing test experiment. Below is a chat log with three participants: user1, user2, and user3.\n\nOne of these three users is an AI bot, while the other two are humans.\n\nChat log:\n\nBased on the chat log above, which user do you think is the AI bot? Please respond with only 'user1', 'user2', or 'user3'.",
-        "prediction": "user2",
-        "correct_bot": false,
-        "correct_bot_user": "user3"
-      }
-    ]
+          "prediction": "user1",
+          "raw_response": "user1",
+          "error": null,
+          "is_correct": false,
+          "processing_time": 0.7576749324798584,
+          "correct_bot_user": "user3",
+          "human_accusations": {
+            "Purple": false,
+            "Black": true
+          }
+        }
+      ],
+      "timestamp": "2025-03-12 23:36:09"
+    }
   }
 }

@@ -26,50 +26,77 @@ def parse_log_file(filename: str) -> List[Game]:
     games = []
     for game_id, game_content in game_blocks:
         user_table = re.search(r'\| User \| Color \|\s*\| ---- \| ----- \|(.*?)\s*###',
-                               game_content, re.DOTALL).group(1)
+                               game_content, re.DOTALL)
+
+        if not user_table:
+            continue  # Skip if user table not found
+
         users = {}
-        for line in user_table.strip().split('\n'):
+        emoji_to_color = {}  # Map emoji to color for easier lookup
+        user_roles = {}  # Map roles like "You" to color
+
+        for line in user_table.group(1).strip().split('\n'):
             if '**' in line:
                 parts = line.split('|')
+                if len(parts) < 3:
+                    continue
+
                 user_role = parts[1].strip()
                 color_match = re.search(r'\*\*(.+?) (.+?)\*\*', parts[2].strip())
+
                 if color_match:
                     emoji, color = color_match.groups()
-                    if 'Bot' in user_role:
-                        users[color] = 'bot'
-                    else:
-                        users[color] = 'human'
+                    users[color] = 'bot' if 'Bot' in user_role else 'human'
+                    emoji_to_color[emoji] = color  # Store mapping from emoji to color
+
+                    # Store mapping from role to color for accusations later
+                    if user_role == "You" or user_role == "Other human":
+                        user_roles[user_role] = color
 
         chat_section = re.search(r'### The Chat:(.*?)### The Accusations:',
-                                 game_content, re.DOTALL).group(1)
+                                 game_content, re.DOTALL)
+
+        if not chat_section:
+            continue  # Skip if chat section not found
+
         chat = []
-        for line in chat_section.strip().split('\n'):
+        for line in chat_section.group(1).strip().split('\n'):
             if '): **' in line:
-                color_match = re.search(r'\((.+?)\): \*\*(.+?)\*\*', line)
-                if color_match:
-                    emoji, message = color_match.groups()
-                    color = next((c for c in users.keys() if emoji in c), None)
-                    if color:
+                message_match = re.search(r'\((.+?)\): \*\*(.+?)\*\*', line)
+                if message_match:
+                    emoji, message = message_match.groups()
+                    if emoji in emoji_to_color:
+                        color = emoji_to_color[emoji]
                         chat.append((color, message))
 
         # Extract accusations
         accusations_section = re.search(r'### The Accusations:(.*?)$',
-                                        game_content, re.DOTALL).group(1)
+                                        game_content, re.DOTALL)
+
+        if not accusations_section:
+            continue  # Skip if accusations section not found
+
         accusations = {}
-        for line in accusations_section.strip().split('\n'):
+        for line in accusations_section.group(1).strip().split('\n'):
             if '**' in line:
                 parts = line.split('|')
+                if len(parts) < 3:
+                    continue
+
                 user_role = parts[1].strip()
                 result = parts[2].strip()
 
-                for color, role in users.items():
-                    if (role == 'human' and user_role in ["You", "Other human"]):
-                        is_correct = "✅ Correct accusation" in result
-                        is_incorrect = "❌ Incorrect accusation" in result
-                        is_no_accusation = "⭕ No accusation" in result
+                # Only process accusations for human users
+                if user_role in user_roles and users.get(user_roles[user_role]) == 'human':
+                    color = user_roles[user_role]
 
-                        if is_correct or is_incorrect or is_no_accusation:
-                            accusations[color] = is_correct
+                    # Determine accusation result
+                    if "Correct accusation" in result:
+                        accusations[color] = True
+                    elif "Incorrect accusation" in result:
+                        accusations[color] = False
+                    elif "No accusation" in result:
+                        accusations[color] = None
 
         games.append(Game(
             id=game_id,
