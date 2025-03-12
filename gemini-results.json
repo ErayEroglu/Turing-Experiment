@@ -1,317 +1,31 @@
 {
   "summary": {
-    "total_files": 6,
-    "files_processed": 6,
-    "total_games": 60,
-    "correct_predictions": 6,
+    "total_files": 1,
+    "files_processed": 1,
+    "total_games": 10,
+    "correct_predictions": 2,
     "model": "gemini-1.5-pro",
-    "start_time": "2025-03-12 23:32:02",
-    "average_accuracy": 0.1,
-    "end_time": "2025-03-12 23:36:09"
+    "start_time": "2025-03-12 23:54:40",
+    "average_accuracy": 0.2,
+    "end_time": "2025-03-12 23:56:51"
   },
   "results": {
-    "Day_1_Ivy.md": {
-      "total_games": 10,
-      "correct_predictions": 0,
-      "accuracy": 0.0,
-      "model": "gemini-1.5-pro",
-      "avg_latency": 1.2350983089870877,
-      "api_errors": 0,
-      "game_results": [
-        {
-          "game_id": "1003",
-          "prediction": "user1",
-          "raw_response": "user1",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 1.3925890922546387,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Purple": true,
-            "Orange": null
-          }
-        },
-        {
-          "game_id": "1103",
-          "prediction": "user3",
-          "raw_response": "user3",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 0.7351069450378418,
-          "correct_bot_user": "user2",
-          "human_accusations": {
-            "Purple": false,
-            "Orange": null
-          }
-        },
-        {
-          "game_id": "1203",
-          "prediction": "user3",
-          "raw_response": "user3",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 0.8390111923217773,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Black": true,
-            "Purple": true
-          }
-        },
-        {
-          "game_id": "1302",
-          "prediction": "user3",
-          "raw_response": "user3",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 1.4574389457702637,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Green": true,
-            "Black": true
-          }
-        },
-        {
-          "game_id": "1403",
-          "prediction": "user3",
-          "raw_response": "user3",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 1.4755527973175049,
-          "correct_bot_user": "user2",
-          "human_accusations": {
-            "Green": true,
-            "Orange": true
-          }
-        },
-        {
-          "game_id": "1502",
-          "prediction": "user1",
-          "raw_response": "user1",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 1.3165562152862549,
-          "correct_bot_user": "user2",
-          "human_accusations": {
-            "Green": true,
-            "Orange": true
-          }
-        },
-        {
-          "game_id": "1602",
-          "prediction": "user3",
-          "raw_response": "user3",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 1.293208122253418,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Red": true,
-            "Black": true
-          }
-        },
-        {
-          "game_id": "1701",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 4.590359926223755,
-          "correct_bot_user": "user2",
-          "human_accusations": {
-            "Green": true,
-            "Orange": true
-          }
-        },
-        {
-          "game_id": "1802",
-          "prediction": "user2",
-          "raw_response": "user2",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 5.662325143814087,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Orange": true,
-            "Green": true
-          }
-        },
-        {
-          "game_id": "1901",
-          "prediction": "user2",
-          "raw_response": "user2",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 3.5584828853607178,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Red": true,
-            "Green": true
-          }
-        }
-      ],
-      "timestamp": "2025-03-12 23:32:33"
-    },
-    "Day_1_Hal.md": {
-      "total_games": 10,
-      "correct_predictions": 1,
-      "accuracy": 0.1,
-      "model": "gemini-1.5-pro",
-      "avg_latency": 1.093674659729004,
-      "api_errors": 0,
-      "game_results": [
-        {
-          "game_id": "1002",
-          "prediction": "user2",
-          "raw_response": "user2",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 4.992640018463135,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Red": true,
-            "Green": null
-          }
-        },
-        {
-          "game_id": "1102",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 4.04218602180481,
-          "correct_bot_user": "user2",
-          "human_accusations": {
-            "Orange": true,
-            "Black": true
-          }
-        },
-        {
-          "game_id": "1202",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 3.9939770698547363,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Green": true,
-            "Red": false
-          }
-        },
-        {
-          "game_id": "1302",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 5.19636082649231,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Black": true,
-            "Green": true
-          }
-        },
-        {
-          "game_id": "1402",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 4.738219738006592,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Purple": false,
-            "Orange": true
-          }
-        },
-        {
-          "game_id": "1502",
-          "prediction": "user2",
-          "raw_response": "user2",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 2.7958381175994873,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Orange": true,
-            "Green": true
-          }
-        },
-        {
-          "game_id": "1601",
-          "prediction": "user3",
-          "raw_response": "user3",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 0.9309041500091553,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Black": false,
-            "Green": false
-          }
-        },
-        {
-          "game_id": "1703",
-          "prediction": "user3",
-          "raw_response": "user3",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 0.9042990207672119,
-          "correct_bot_user": "user2",
-          "human_accusations": {
-            "Red": true,
-            "Black": true
-          }
-        },
-        {
-          "game_id": "1801",
-          "prediction": "user2",
-          "raw_response": "user2",
-          "error": null,
-          "is_correct": true,
-          "processing_time": 1.0337820053100586,
-          "correct_bot_user": "user2",
-          "human_accusations": {
-            "Blue": true,
-            "Black": true
-          }
-        },
-        {
-          "game_id": "1903",
-          "prediction": "user3",
-          "raw_response": "user3",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 1.4676921367645264,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Black": true,
-            "Purple": false
-          }
-        }
-      ],
-      "timestamp": "2025-03-12 23:33:12"
-    },
     "Day_1_Gus.md": {
       "total_games": 10,
-      "correct_predictions": 1,
-      "accuracy": 0.1,
+      "correct_predictions": 2,
+      "accuracy": 0.2,
       "model": "gemini-1.5-pro",
-      "avg_latency": 1.3113585710525513,
+      "avg_latency": 1.06018861134847,
       "api_errors": 0,
       "game_results": [
         {
           "game_id": "1001",
-          "prediction": "user3",
-          "raw_response": "user3",
+          "prediction": "user2",
+          "raw_response": "user2",
           "error": null,
           "is_correct": false,
-          "processing_time": 1.421247959136963,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Red": false,
-            "Green": false
-          }
+          "processing_time": 1.126262903213501,
+          "correct_bot_user": "user1"
         },
         {
           "game_id": "1101",
@@ -319,12 +33,8 @@
           "raw_response": "user1",
           "error": null,
           "is_correct": true,
-          "processing_time": 1.486975908279419,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Blue": true,
-            "Purple": true
-          }
+          "processing_time": 1.0837960243225098,
+          "correct_bot_user": "user1"
         },
         {
           "game_id": "1201",
@@ -332,529 +42,74 @@
           "raw_response": "user2",
           "error": null,
           "is_correct": false,
-          "processing_time": 2.191737174987793,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Orange": false,
-            "Purple": true
-          }
+          "processing_time": 0.9526968002319336,
+          "correct_bot_user": "user3"
         },
         {
           "game_id": "1301",
-          "prediction": "user1",
-          "raw_response": "user1",
-          "error": null,
+          "prediction": null,
+          "raw_response": null,
+          "error": "429 Resource has been exhausted (e.g. check quota).",
           "is_correct": false,
-          "processing_time": 5.854979753494263,
-          "correct_bot_user": "user2",
-          "human_accusations": {
-            "Orange": null,
-            "Black": true
-          }
+          "processing_time": 21.051438093185425,
+          "correct_bot_user": "user1"
         },
         {
           "game_id": "1401",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "prediction": "user2",
+          "raw_response": "user2",
+          "error": null,
           "is_correct": false,
-          "processing_time": 5.427423000335693,
-          "correct_bot_user": "user2",
-          "human_accusations": {
-            "Orange": true,
-            "Red": true
-          }
+          "processing_time": 0.9276068210601807,
+          "correct_bot_user": "user3"
         },
         {
           "game_id": "1501",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "prediction": "user2",
+          "raw_response": "user2",
+          "error": null,
           "is_correct": false,
-          "processing_time": 4.040313005447388,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Blue": true,
-            "Black": true
-          }
+          "processing_time": 1.0647869110107422,
+          "correct_bot_user": "user3"
         },
         {
           "game_id": "1601",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "prediction": "user1",
+          "raw_response": "user1",
+          "error": null,
           "is_correct": false,
-          "processing_time": 4.499449968338013,
-          "correct_bot_user": "user2",
-          "human_accusations": {
-            "Green": false,
-            "Black": false
-          }
+          "processing_time": 0.6342380046844482,
+          "correct_bot_user": "user2"
         },
         {
           "game_id": "1701",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
+          "prediction": "user2",
+          "raw_response": "user2",
+          "error": null,
           "is_correct": false,
-          "processing_time": 4.553354024887085,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Orange": true,
-            "Green": true
-          }
+          "processing_time": 11.698776006698608,
+          "correct_bot_user": "user1"
         },
         {
           "game_id": "1801",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 3.7962307929992676,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Black": true,
-            "Blue": true
-          }
+          "prediction": "user2",
+          "raw_response": "user2",
+          "error": null,
+          "is_correct": true,
+          "processing_time": 1.508897066116333,
+          "correct_bot_user": "user2"
         },
         {
           "game_id": "1901",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 4.185854196548462,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Green": true,
-            "Red": true
-          }
-        }
-      ],
-      "timestamp": "2025-03-12 23:33:59"
-    },
-    "Day_1_Kim.md": {
-      "total_games": 10,
-      "correct_predictions": 2,
-      "accuracy": 0.2,
-      "model": "gemini-1.5-pro",
-      "avg_latency": 0.7911968231201172,
-      "api_errors": 0,
-      "game_results": [
-        {
-          "game_id": "1002",
-          "prediction": "user3",
-          "raw_response": "user3",
-          "error": null,
-          "is_correct": true,
-          "processing_time": 4.742390871047974,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Green": null,
-            "Red": true
-          }
-        },
-        {
-          "game_id": "1101",
-          "prediction": "user2",
-          "raw_response": "user2",
-          "error": null,
-          "is_correct": true,
-          "processing_time": 0.6113638877868652,
-          "correct_bot_user": "user2",
-          "human_accusations": {
-            "Purple": true,
-            "Blue": true
-          }
-        },
-        {
-          "game_id": "1202",
-          "prediction": "user2",
-          "raw_response": "user2",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 0.7381250858306885,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Red": false,
-            "Green": true
-          }
-        },
-        {
-          "game_id": "1303",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 4.106359004974365,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Black": true,
-            "Red": true
-          }
-        },
-        {
-          "game_id": "1401",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 3.945481300354004,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Red": true,
-            "Orange": true
-          }
-        },
-        {
-          "game_id": "1503",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 4.043551921844482,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Red": true,
-            "Green": true
-          }
-        },
-        {
-          "game_id": "1602",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 4.126319885253906,
-          "correct_bot_user": "user2",
-          "human_accusations": {
-            "Black": true,
-            "Red": true
-          }
-        },
-        {
-          "game_id": "1702",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 3.9511189460754395,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Purple": true,
-            "Black": true
-          }
-        },
-        {
-          "game_id": "1802",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 4.112707853317261,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Green": true,
-            "Orange": true
-          }
-        },
-        {
-          "game_id": "1902",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 3.773275136947632,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Black": true,
-            "Blue": true
-          }
-        }
-      ],
-      "timestamp": "2025-03-12 23:34:42"
-    },
-    "Day_1_Jan.md": {
-      "total_games": 10,
-      "correct_predictions": 0,
-      "accuracy": 0.0,
-      "model": "gemini-1.5-pro",
-      "avg_latency": 1.070330023765564,
-      "api_errors": 0,
-      "game_results": [
-        {
-          "game_id": "1003",
-          "prediction": "user1",
-          "raw_response": "user1",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 1.3876957893371582,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Orange": null,
-            "Purple": true
-          }
-        },
-        {
-          "game_id": "1102",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 4.142804861068726,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Black": true,
-            "Orange": true
-          }
-        },
-        {
-          "game_id": "1203",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 4.1353020668029785,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Purple": true,
-            "Black": true
-          }
-        },
-        {
-          "game_id": "1301",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 3.8676042556762695,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Black": true,
-            "Orange": null
-          }
-        },
-        {
-          "game_id": "1402",
-          "prediction": "user2",
-          "raw_response": "user2",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 4.671823024749756,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Orange": true,
-            "Purple": false
-          }
-        },
-        {
-          "game_id": "1501",
-          "prediction": "user2",
-          "raw_response": "user2",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 1.0972011089324951,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Black": true,
-            "Blue": true
-          }
-        },
-        {
-          "game_id": "1603",
           "prediction": "user3",
           "raw_response": "user3",
           "error": null,
           "is_correct": false,
-          "processing_time": 0.7436339855194092,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Purple": null,
-            "Blue": true
-          }
-        },
-        {
-          "game_id": "1702",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 3.7353551387786865,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Black": true,
-            "Purple": true
-          }
-        },
-        {
-          "game_id": "1803",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 4.242240905761719,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Blue": true,
-            "Green": true
-          }
-        },
-        {
-          "game_id": "1902",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 3.985089063644409,
-          "correct_bot_user": "user2",
-          "human_accusations": {
-            "Blue": true,
-            "Black": true
-          }
+          "processing_time": 0.7875552177429199,
+          "correct_bot_user": "user1"
         }
       ],
-      "timestamp": "2025-03-12 23:35:23"
-    },
-    "Day_1_Leo.md": {
-      "total_games": 10,
-      "correct_predictions": 2,
-      "accuracy": 0.2,
-      "model": "gemini-1.5-pro",
-      "avg_latency": 0.8260374069213867,
-      "api_errors": 0,
-      "game_results": [
-        {
-          "game_id": "1001",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 3.7951290607452393,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Green": false,
-            "Red": false
-          }
-        },
-        {
-          "game_id": "1103",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 4.093257904052734,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Orange": null,
-            "Purple": false
-          }
-        },
-        {
-          "game_id": "1201",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 4.0546369552612305,
-          "correct_bot_user": "user2",
-          "human_accusations": {
-            "Purple": true,
-            "Orange": false
-          }
-        },
-        {
-          "game_id": "1303",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 4.091145992279053,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Red": true,
-            "Black": true
-          }
-        },
-        {
-          "game_id": "1403",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 8.925341129302979,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Orange": true,
-            "Green": true
-          }
-        },
-        {
-          "game_id": "1503",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 3.9593617916107178,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Green": true,
-            "Red": true
-          }
-        },
-        {
-          "game_id": "1603",
-          "prediction": null,
-          "raw_response": null,
-          "error": "429 Resource has been exhausted (e.g. check quota).",
-          "is_correct": false,
-          "processing_time": 3.967349052429199,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Blue": true,
-            "Purple": null
-          }
-        },
-        {
-          "game_id": "1703",
-          "prediction": "user2",
-          "raw_response": "user2",
-          "error": null,
-          "is_correct": true,
-          "processing_time": 2.397998094558716,
-          "correct_bot_user": "user2",
-          "human_accusations": {
-            "Black": true,
-            "Red": true
-          }
-        },
-        {
-          "game_id": "1803",
-          "prediction": "user1",
-          "raw_response": "user1",
-          "error": null,
-          "is_correct": true,
-          "processing_time": 0.6961522102355957,
-          "correct_bot_user": "user1",
-          "human_accusations": {
-            "Green": true,
-            "Blue": true
-          }
-        },
-        {
-          "game_id": "1903",
-          "prediction": "user1",
-          "raw_response": "user1",
-          "error": null,
-          "is_correct": false,
-          "processing_time": 0.7576749324798584,
-          "correct_bot_user": "user3",
-          "human_accusations": {
-            "Purple": false,
-            "Black": true
-          }
-        }
-      ],
-      "timestamp": "2025-03-12 23:36:09"
+      "timestamp": "2025-03-12 23:56:51"
     }
   }
 }

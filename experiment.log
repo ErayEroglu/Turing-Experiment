@@ -723,3 +723,418 @@ Experiment complete!
 2025-03-12 23:36:09,220 - INFO - Total games: 60
 2025-03-12 23:36:09,220 - INFO - Overall accuracy: 10.00% (6/60)
 2025-03-12 23:36:09,220 - INFO - Results saved to gemini-results.json
+2025-03-12 23:41:27,376 - INFO - Found API keys for: gemini
+2025-03-12 23:41:27,376 - INFO - Found 1 files to process
+2025-03-12 23:41:27,376 - INFO - 
+Processing file 1/1: control/Day_1_Gus.md
+2025-03-12 23:41:27,376 - INFO - Starting experiment on control/Day_1_Gus.md with model gemini-1.5-pro
+2025-03-12 23:41:27,376 - INFO - Parsing file: control/Day_1_Gus.md
+2025-03-12 23:41:27,376 - INFO - Found 10 game blocks in control/Day_1_Gus.md
+2025-03-12 23:41:27,376 - INFO - Game 1001: Successfully parsed
+2025-03-12 23:41:27,376 - INFO - Game 1101: Successfully parsed
+2025-03-12 23:41:27,376 - INFO - Game 1201: Successfully parsed
+2025-03-12 23:41:27,376 - INFO - Game 1301: Successfully parsed
+2025-03-12 23:41:27,376 - INFO - Game 1401: Successfully parsed
+2025-03-12 23:41:27,376 - INFO - Game 1501: Successfully parsed
+2025-03-12 23:41:27,376 - INFO - Game 1601: Successfully parsed
+2025-03-12 23:41:27,376 - INFO - Game 1701: Successfully parsed
+2025-03-12 23:41:27,376 - INFO - Game 1801: Successfully parsed
+2025-03-12 23:41:27,376 - INFO - Game 1901: Successfully parsed
+2025-03-12 23:41:27,376 - INFO - Successfully parsed 10/10 games from control/Day_1_Gus.md
+2025-03-12 23:41:27,376 - INFO - Found 10 valid games
+2025-03-12 23:41:27,377 - INFO - Processing game 1/10 (ID: 1001)
+2025-03-12 23:41:27,377 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:41:28,608 - INFO - LLM prediction: user1
+2025-03-12 23:41:28,608 - INFO - ❌ Incorrect prediction
+2025-03-12 23:41:38,613 - INFO - Processing game 2/10 (ID: 1101)
+2025-03-12 23:41:38,614 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:41:39,665 - INFO - LLM prediction: user2
+2025-03-12 23:41:39,666 - INFO - ✅ Correct prediction
+2025-03-12 23:41:49,671 - INFO - Processing game 3/10 (ID: 1201)
+2025-03-12 23:41:49,671 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:41:50,641 - INFO - LLM prediction: user1
+2025-03-12 23:41:50,641 - INFO - ❌ Incorrect prediction
+2025-03-12 23:42:00,643 - INFO - Processing game 4/10 (ID: 1301)
+2025-03-12 23:42:00,644 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:42:01,052 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:01,058 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:01,058 - INFO - Waiting 1 seconds before retry...
+2025-03-12 23:42:02,453 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:02,454 - WARNING - Unsuccessful query on attempt 2/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:02,454 - INFO - Waiting 2 seconds before retry...
+2025-03-12 23:42:05,249 - INFO - LLM prediction: user3
+2025-03-12 23:42:05,249 - INFO - ❌ Incorrect prediction
+2025-03-12 23:42:15,254 - INFO - Processing game 5/10 (ID: 1401)
+2025-03-12 23:42:15,255 - WARNING - Game 1401: Not all users appear in chat (only {'user3', 'user2'})
+2025-03-12 23:42:15,255 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:42:16,122 - INFO - LLM prediction: user2
+2025-03-12 23:42:16,122 - INFO - ❌ Incorrect prediction
+2025-03-12 23:42:26,128 - INFO - Processing game 6/10 (ID: 1501)
+2025-03-12 23:42:26,128 - WARNING - Game 1501: Not all users appear in chat (only {'user3', 'user2'})
+2025-03-12 23:42:26,128 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:42:26,816 - INFO - LLM prediction: user3
+2025-03-12 23:42:26,817 - INFO - ❌ Incorrect prediction
+2025-03-12 23:42:36,822 - INFO - Processing game 7/10 (ID: 1601)
+2025-03-12 23:42:36,822 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:42:37,317 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:37,319 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:37,319 - INFO - Waiting 1 seconds before retry...
+2025-03-12 23:42:38,496 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:38,498 - WARNING - Unsuccessful query on attempt 2/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:38,498 - INFO - Waiting 2 seconds before retry...
+2025-03-12 23:42:40,693 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:40,695 - WARNING - Unsuccessful query on attempt 3/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:40,695 - ERROR - Failed to get valid prediction for game 1601
+2025-03-12 23:42:40,695 - INFO - LLM prediction: None
+2025-03-12 23:42:40,695 - INFO - ❌ Incorrect prediction
+2025-03-12 23:42:50,698 - INFO - Processing game 8/10 (ID: 1701)
+2025-03-12 23:42:50,699 - WARNING - Game 1701: Not all users appear in chat (only {'user2', 'user1'})
+2025-03-12 23:42:50,699 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:42:50,963 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:50,965 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:50,965 - INFO - Waiting 1 seconds before retry...
+2025-03-12 23:42:52,164 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:52,166 - WARNING - Unsuccessful query on attempt 2/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:52,166 - INFO - Waiting 2 seconds before retry...
+2025-03-12 23:42:54,590 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:54,592 - WARNING - Unsuccessful query on attempt 3/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:42:54,592 - ERROR - Failed to get valid prediction for game 1701
+2025-03-12 23:42:54,592 - INFO - LLM prediction: None
+2025-03-12 23:42:54,592 - INFO - ❌ Incorrect prediction
+2025-03-12 23:43:04,597 - INFO - Processing game 9/10 (ID: 1801)
+2025-03-12 23:43:04,598 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:43:05,566 - INFO - LLM prediction: user3
+2025-03-12 23:43:05,566 - INFO - ✅ Correct prediction
+2025-03-12 23:43:15,571 - INFO - Processing game 10/10 (ID: 1901)
+2025-03-12 23:43:15,571 - WARNING - Game 1901: Not all users appear in chat (only {'user2', 'user1'})
+2025-03-12 23:43:15,571 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:43:16,282 - INFO - LLM prediction: user1
+2025-03-12 23:43:16,282 - INFO - ❌ Incorrect prediction
+2025-03-12 23:43:16,283 - INFO - Experiment complete.
+2025-03-12 23:43:16,283 - INFO - Accuracy: 20.00% (2/10)
+2025-03-12 23:43:16,283 - INFO - API Errors: 0
+2025-03-12 23:43:16,283 - INFO - Average latency: 0.91s
+2025-03-12 23:43:16,285 - INFO - Saved intermediate results to gemini-results.json
+2025-03-12 23:43:16,286 - INFO - 
+Experiment complete!
+2025-03-12 23:43:16,286 - INFO - Processed 1/1 files
+2025-03-12 23:43:16,286 - INFO - Total games: 10
+2025-03-12 23:43:16,286 - INFO - Overall accuracy: 20.00% (2/10)
+2025-03-12 23:43:16,286 - INFO - Results saved to gemini-results.json
+2025-03-12 23:54:40,339 - INFO - Found API keys for: gemini
+2025-03-12 23:54:40,339 - INFO - Found 1 files to process
+2025-03-12 23:54:40,339 - INFO - 
+Processing file 1/1: control/Day_1_Gus.md
+2025-03-12 23:54:40,339 - INFO - Starting experiment on control/Day_1_Gus.md with model gemini-1.5-pro
+2025-03-12 23:54:40,339 - INFO - Parsing file: control/Day_1_Gus.md
+2025-03-12 23:54:40,340 - INFO - Found 10 game blocks in control/Day_1_Gus.md
+2025-03-12 23:54:40,340 - INFO - Game 1001: Successfully parsed
+2025-03-12 23:54:40,340 - INFO - Game 1101: Successfully parsed
+2025-03-12 23:54:40,340 - INFO - Game 1201: Successfully parsed
+2025-03-12 23:54:40,340 - INFO - Game 1301: Successfully parsed
+2025-03-12 23:54:40,340 - INFO - Game 1401: Successfully parsed
+2025-03-12 23:54:40,340 - INFO - Game 1501: Successfully parsed
+2025-03-12 23:54:40,340 - INFO - Game 1601: Successfully parsed
+2025-03-12 23:54:40,340 - INFO - Game 1701: Successfully parsed
+2025-03-12 23:54:40,340 - INFO - Game 1801: Successfully parsed
+2025-03-12 23:54:40,340 - INFO - Game 1901: Successfully parsed
+2025-03-12 23:54:40,340 - INFO - Successfully parsed 10/10 games from control/Day_1_Gus.md
+2025-03-12 23:54:40,340 - INFO - Found 10 valid games
+2025-03-12 23:54:40,340 - INFO - Processing game 1/10 (ID: 1001)
+2025-03-12 23:54:40,340 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:54:41,466 - INFO - LLM prediction: user2
+2025-03-12 23:54:41,466 - INFO - ❌ Incorrect prediction
+2025-03-12 23:54:51,471 - INFO - Processing game 2/10 (ID: 1101)
+2025-03-12 23:54:51,472 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:54:52,554 - INFO - LLM prediction: user1
+2025-03-12 23:54:52,555 - INFO - ✅ Correct prediction
+2025-03-12 23:55:02,560 - INFO - Processing game 3/10 (ID: 1201)
+2025-03-12 23:55:02,561 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:55:03,512 - INFO - LLM prediction: user2
+2025-03-12 23:55:03,513 - INFO - ❌ Incorrect prediction
+2025-03-12 23:55:13,515 - INFO - Processing game 4/10 (ID: 1301)
+2025-03-12 23:55:13,516 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:55:13,821 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:55:13,827 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:55:13,827 - INFO - Waiting 10 seconds before retry...
+2025-03-12 23:55:24,110 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:55:24,112 - WARNING - Unsuccessful query on attempt 2/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:55:24,112 - INFO - Waiting 10 seconds before retry...
+2025-03-12 23:55:34,564 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:55:34,566 - WARNING - Unsuccessful query on attempt 3/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:55:34,566 - ERROR - Failed to get valid prediction for game 1301
+2025-03-12 23:55:34,566 - INFO - LLM prediction: None
+2025-03-12 23:55:34,566 - INFO - ❌ Incorrect prediction
+2025-03-12 23:55:44,571 - INFO - Processing game 5/10 (ID: 1401)
+2025-03-12 23:55:44,572 - WARNING - Game 1401: Not all users appear in chat (only {'user1', 'user2'})
+2025-03-12 23:55:44,572 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:55:45,498 - INFO - LLM prediction: user2
+2025-03-12 23:55:45,499 - INFO - ❌ Incorrect prediction
+2025-03-12 23:55:55,504 - INFO - Processing game 6/10 (ID: 1501)
+2025-03-12 23:55:55,504 - WARNING - Game 1501: Not all users appear in chat (only {'user1', 'user2'})
+2025-03-12 23:55:55,505 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:55:56,568 - INFO - LLM prediction: user2
+2025-03-12 23:55:56,569 - INFO - ❌ Incorrect prediction
+2025-03-12 23:56:06,573 - INFO - Processing game 7/10 (ID: 1601)
+2025-03-12 23:56:06,574 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:56:07,207 - INFO - LLM prediction: user1
+2025-03-12 23:56:07,207 - INFO - ❌ Incorrect prediction
+2025-03-12 23:56:17,213 - INFO - Processing game 8/10 (ID: 1701)
+2025-03-12 23:56:17,213 - WARNING - Game 1701: Not all users appear in chat (only {'user3', 'user2'})
+2025-03-12 23:56:17,213 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:56:17,441 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:56:17,442 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-12 23:56:17,442 - INFO - Waiting 10 seconds before retry...
+2025-03-12 23:56:28,911 - INFO - LLM prediction: user2
+2025-03-12 23:56:28,911 - INFO - ❌ Incorrect prediction
+2025-03-12 23:56:38,915 - INFO - Processing game 9/10 (ID: 1801)
+2025-03-12 23:56:38,915 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:56:40,423 - INFO - LLM prediction: user2
+2025-03-12 23:56:40,424 - INFO - ✅ Correct prediction
+2025-03-12 23:56:50,429 - INFO - Processing game 10/10 (ID: 1901)
+2025-03-12 23:56:50,429 - WARNING - Game 1901: Not all users appear in chat (only {'user3', 'user2'})
+2025-03-12 23:56:50,429 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-12 23:56:51,216 - INFO - LLM prediction: user3
+2025-03-12 23:56:51,216 - INFO - ❌ Incorrect prediction
+2025-03-12 23:56:51,216 - INFO - Experiment complete.
+2025-03-12 23:56:51,216 - INFO - Accuracy: 20.00% (2/10)
+2025-03-12 23:56:51,217 - INFO - API Errors: 0
+2025-03-12 23:56:51,217 - INFO - Average latency: 1.06s
+2025-03-12 23:56:51,218 - INFO - Saved intermediate results to gemini-results.json
+2025-03-12 23:56:51,218 - INFO - 
+Experiment complete!
+2025-03-12 23:56:51,219 - INFO - Processed 1/1 files
+2025-03-12 23:56:51,219 - INFO - Total games: 10
+2025-03-12 23:56:51,219 - INFO - Overall accuracy: 20.00% (2/10)
+2025-03-12 23:56:51,219 - INFO - Results saved to gemini-results.json
+2025-03-13 00:00:53,016 - INFO - Found API keys for: gemini
+2025-03-13 00:00:53,016 - INFO - Found 1 files to process
+2025-03-13 00:00:53,016 - INFO - 
+Processing file 1/1: control/Day_1_Kim.md
+2025-03-13 00:00:53,016 - INFO - Starting experiment on control/Day_1_Kim.md with model gemini-1.5-pro
+2025-03-13 00:00:53,016 - INFO - Parsing file: control/Day_1_Kim.md
+2025-03-13 00:00:53,016 - INFO - Found 10 game blocks in control/Day_1_Kim.md
+2025-03-13 00:00:53,017 - INFO - Game 1002: Successfully parsed
+2025-03-13 00:00:53,017 - INFO - Game 1101: Successfully parsed
+2025-03-13 00:00:53,017 - INFO - Game 1202: Successfully parsed
+2025-03-13 00:00:53,017 - INFO - Game 1303: Successfully parsed
+2025-03-13 00:00:53,017 - INFO - Game 1401: Successfully parsed
+2025-03-13 00:00:53,017 - INFO - Game 1503: Successfully parsed
+2025-03-13 00:00:53,017 - INFO - Game 1602: Successfully parsed
+2025-03-13 00:00:53,017 - INFO - Game 1702: Successfully parsed
+2025-03-13 00:00:53,017 - INFO - Game 1802: Successfully parsed
+2025-03-13 00:00:53,017 - INFO - Game 1902: Successfully parsed
+2025-03-13 00:00:53,017 - INFO - Successfully parsed 10/10 games from control/Day_1_Kim.md
+2025-03-13 00:00:53,017 - INFO - Found 10 valid games
+2025-03-13 00:00:53,017 - INFO - Processing game 1/10 (ID: 1002)
+2025-03-13 00:00:53,017 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:00:54,074 - INFO - LLM prediction: user3
+2025-03-13 00:00:54,074 - INFO - ❌ Incorrect prediction
+2025-03-13 00:00:55,074 - INFO - Processing game 2/10 (ID: 1101)
+2025-03-13 00:00:55,075 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:00:55,489 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:00:55,495 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:00:55,495 - INFO - Waiting 0 seconds before retry...
+2025-03-13 00:00:56,484 - INFO - LLM prediction: user2
+2025-03-13 00:00:56,484 - INFO - ✅ Correct prediction
+2025-03-13 00:00:57,489 - INFO - Processing game 3/10 (ID: 1202)
+2025-03-13 00:00:57,490 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:00:57,712 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:00:57,713 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:00:57,713 - INFO - Waiting 0 seconds before retry...
+2025-03-13 00:00:59,113 - INFO - LLM prediction: user1
+2025-03-13 00:00:59,113 - INFO - ❌ Incorrect prediction
+2025-03-13 00:01:00,115 - INFO - Processing game 4/10 (ID: 1303)
+2025-03-13 00:01:00,116 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:01:00,585 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:00,586 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:00,587 - INFO - Waiting 0 seconds before retry...
+2025-03-13 00:01:00,972 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:00,974 - WARNING - Unsuccessful query on attempt 2/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:00,974 - INFO - Waiting 10 seconds before retry...
+2025-03-13 00:01:11,215 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:11,216 - WARNING - Unsuccessful query on attempt 3/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:11,217 - ERROR - Failed to get valid prediction for game 1303
+2025-03-13 00:01:11,217 - INFO - LLM prediction: None
+2025-03-13 00:01:11,217 - INFO - ❌ Incorrect prediction
+2025-03-13 00:01:12,222 - INFO - Processing game 5/10 (ID: 1401)
+2025-03-13 00:01:12,223 - WARNING - Game 1401: Not all users appear in chat (only {'user3', 'user2'})
+2025-03-13 00:01:12,223 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:01:12,493 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:12,495 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:12,495 - INFO - Waiting 0 seconds before retry...
+2025-03-13 00:01:12,669 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:12,671 - WARNING - Unsuccessful query on attempt 2/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:12,671 - INFO - Waiting 10 seconds before retry...
+2025-03-13 00:01:22,881 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:22,883 - WARNING - Unsuccessful query on attempt 3/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:22,883 - ERROR - Failed to get valid prediction for game 1401
+2025-03-13 00:01:22,883 - INFO - LLM prediction: None
+2025-03-13 00:01:22,883 - INFO - ❌ Incorrect prediction
+2025-03-13 00:01:23,888 - INFO - Processing game 6/10 (ID: 1503)
+2025-03-13 00:01:23,889 - WARNING - Game 1503: Not all users appear in chat (only {'user3', 'user1'})
+2025-03-13 00:01:23,889 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:01:24,184 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:24,186 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:24,186 - INFO - Waiting 0 seconds before retry...
+2025-03-13 00:01:25,970 - INFO - LLM prediction: user3
+2025-03-13 00:01:25,970 - INFO - ❌ Incorrect prediction
+2025-03-13 00:01:26,974 - INFO - Processing game 7/10 (ID: 1602)
+2025-03-13 00:01:26,974 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:01:27,858 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:27,859 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:27,859 - INFO - Waiting 0 seconds before retry...
+2025-03-13 00:01:28,208 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:28,210 - WARNING - Unsuccessful query on attempt 2/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:28,210 - INFO - Waiting 10 seconds before retry...
+2025-03-13 00:01:38,579 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:38,581 - WARNING - Unsuccessful query on attempt 3/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:38,581 - ERROR - Failed to get valid prediction for game 1602
+2025-03-13 00:01:38,581 - INFO - LLM prediction: None
+2025-03-13 00:01:38,582 - INFO - ❌ Incorrect prediction
+2025-03-13 00:01:39,587 - INFO - Processing game 8/10 (ID: 1702)
+2025-03-13 00:01:39,587 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:01:39,980 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:39,982 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:39,982 - INFO - Waiting 0 seconds before retry...
+2025-03-13 00:01:40,407 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:40,408 - WARNING - Unsuccessful query on attempt 2/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:40,408 - INFO - Waiting 10 seconds before retry...
+2025-03-13 00:01:50,818 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:50,819 - WARNING - Unsuccessful query on attempt 3/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:50,820 - ERROR - Failed to get valid prediction for game 1702
+2025-03-13 00:01:50,820 - INFO - LLM prediction: None
+2025-03-13 00:01:50,820 - INFO - ❌ Incorrect prediction
+2025-03-13 00:01:51,821 - INFO - Processing game 9/10 (ID: 1802)
+2025-03-13 00:01:51,822 - WARNING - Game 1802: Not all users appear in chat (only {'user1', 'user2'})
+2025-03-13 00:01:51,822 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:01:53,137 - INFO - LLM prediction: user2
+2025-03-13 00:01:53,137 - INFO - ❌ Incorrect prediction
+2025-03-13 00:01:54,142 - INFO - Processing game 10/10 (ID: 1902)
+2025-03-13 00:01:54,143 - WARNING - Game 1902: Not all users appear in chat (only {'user1', 'user2'})
+2025-03-13 00:01:54,143 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:01:54,491 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:54,493 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:54,493 - INFO - Waiting 0 seconds before retry...
+2025-03-13 00:01:54,913 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:54,915 - WARNING - Unsuccessful query on attempt 2/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:01:54,915 - INFO - Waiting 10 seconds before retry...
+2025-03-13 00:02:02,809 - INFO - Found API keys for: gemini
+2025-03-13 00:02:02,809 - INFO - Found 1 files to process
+2025-03-13 00:02:02,809 - INFO - 
+Processing file 1/1: control/Day_1_Kim.md
+2025-03-13 00:02:02,809 - INFO - Starting experiment on control/Day_1_Kim.md with model gemini-1.5-pro
+2025-03-13 00:02:02,809 - INFO - Parsing file: control/Day_1_Kim.md
+2025-03-13 00:02:02,810 - INFO - Found 10 game blocks in control/Day_1_Kim.md
+2025-03-13 00:02:02,810 - INFO - Game 1002: Successfully parsed
+2025-03-13 00:02:02,810 - INFO - Game 1101: Successfully parsed
+2025-03-13 00:02:02,810 - INFO - Game 1202: Successfully parsed
+2025-03-13 00:02:02,810 - INFO - Game 1303: Successfully parsed
+2025-03-13 00:02:02,810 - INFO - Game 1401: Successfully parsed
+2025-03-13 00:02:02,810 - INFO - Game 1503: Successfully parsed
+2025-03-13 00:02:02,810 - INFO - Game 1602: Successfully parsed
+2025-03-13 00:02:02,810 - INFO - Game 1702: Successfully parsed
+2025-03-13 00:02:02,810 - INFO - Game 1802: Successfully parsed
+2025-03-13 00:02:02,810 - INFO - Game 1902: Successfully parsed
+2025-03-13 00:02:02,810 - INFO - Successfully parsed 10/10 games from control/Day_1_Kim.md
+2025-03-13 00:02:02,810 - INFO - Found 10 valid games
+2025-03-13 00:02:02,810 - INFO - Processing game 1/10 (ID: 1002)
+2025-03-13 00:02:02,810 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:02:04,467 - INFO - LLM prediction: user1
+2025-03-13 00:02:04,468 - INFO - ✅ Correct prediction
+2025-03-13 00:02:05,473 - INFO - Processing game 2/10 (ID: 1101)
+2025-03-13 00:02:05,474 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:02:06,468 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:02:06,472 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:02:06,472 - INFO - Waiting 10 seconds before retry...
+2025-03-13 00:02:16,738 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:02:16,740 - WARNING - Unsuccessful query on attempt 2/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:02:16,740 - INFO - Waiting 20 seconds before retry...
+2025-03-13 00:02:36,956 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:02:36,958 - WARNING - Unsuccessful query on attempt 3/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:02:36,959 - ERROR - Failed to get valid prediction for game 1101
+2025-03-13 00:02:36,959 - INFO - LLM prediction: None
+2025-03-13 00:02:36,959 - INFO - ❌ Incorrect prediction
+2025-03-13 00:02:37,964 - INFO - Processing game 3/10 (ID: 1202)
+2025-03-13 00:02:37,964 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:02:38,174 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:02:38,176 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:02:38,176 - INFO - Waiting 10 seconds before retry...
+2025-03-13 00:02:48,374 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:02:48,375 - WARNING - Unsuccessful query on attempt 2/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:02:48,376 - INFO - Waiting 20 seconds before retry...
+2025-03-13 00:03:09,898 - INFO - LLM prediction: user3
+2025-03-13 00:03:09,898 - INFO - ❌ Incorrect prediction
+2025-03-13 00:03:10,904 - INFO - Processing game 4/10 (ID: 1303)
+2025-03-13 00:03:10,904 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:03:11,143 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:03:11,145 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:03:11,145 - INFO - Waiting 10 seconds before retry...
+2025-03-13 00:03:21,436 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:03:21,438 - WARNING - Unsuccessful query on attempt 2/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:03:21,438 - INFO - Waiting 20 seconds before retry...
+2025-03-13 00:03:41,802 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:03:41,804 - WARNING - Unsuccessful query on attempt 3/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:03:41,804 - ERROR - Failed to get valid prediction for game 1303
+2025-03-13 00:03:41,804 - INFO - LLM prediction: None
+2025-03-13 00:03:41,804 - INFO - ❌ Incorrect prediction
+2025-03-13 00:03:42,806 - INFO - Processing game 5/10 (ID: 1401)
+2025-03-13 00:03:42,806 - WARNING - Game 1401: Not all users appear in chat (only {'user3', 'user2'})
+2025-03-13 00:03:42,806 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:03:44,389 - INFO - LLM prediction: user3
+2025-03-13 00:03:44,390 - INFO - ❌ Incorrect prediction
+2025-03-13 00:03:45,391 - INFO - Processing game 6/10 (ID: 1503)
+2025-03-13 00:03:45,392 - WARNING - Game 1503: Not all users appear in chat (only {'user3', 'user1'})
+2025-03-13 00:03:45,392 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:03:45,738 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:03:45,739 - WARNING - Unsuccessful query on attempt 1/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:03:45,739 - INFO - Waiting 10 seconds before retry...
+2025-03-13 00:03:56,094 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:03:56,097 - WARNING - Unsuccessful query on attempt 2/3: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:03:56,097 - INFO - Waiting 20 seconds before retry...
+2025-03-13 00:04:01,764 - INFO - Found API keys for: gemini
+2025-03-13 00:04:01,764 - INFO - Found 1 files to process
+2025-03-13 00:04:01,764 - INFO - 
+Processing file 1/1: control/Day_1_Kim.md
+2025-03-13 00:04:01,765 - INFO - Starting experiment on control/Day_1_Kim.md with model gemini-1.5-pro
+2025-03-13 00:04:01,765 - INFO - Parsing file: control/Day_1_Kim.md
+2025-03-13 00:04:01,765 - INFO - Found 10 game blocks in control/Day_1_Kim.md
+2025-03-13 00:04:01,765 - INFO - Game 1002: Successfully parsed
+2025-03-13 00:04:01,765 - INFO - Game 1101: Successfully parsed
+2025-03-13 00:04:01,765 - INFO - Game 1202: Successfully parsed
+2025-03-13 00:04:01,765 - INFO - Game 1303: Successfully parsed
+2025-03-13 00:04:01,765 - INFO - Game 1401: Successfully parsed
+2025-03-13 00:04:01,765 - INFO - Game 1503: Successfully parsed
+2025-03-13 00:04:01,765 - INFO - Game 1602: Successfully parsed
+2025-03-13 00:04:01,765 - INFO - Game 1702: Successfully parsed
+2025-03-13 00:04:01,765 - INFO - Game 1802: Successfully parsed
+2025-03-13 00:04:01,765 - INFO - Game 1902: Successfully parsed
+2025-03-13 00:04:01,765 - INFO - Successfully parsed 10/10 games from control/Day_1_Kim.md
+2025-03-13 00:04:01,765 - INFO - Found 10 valid games
+2025-03-13 00:04:01,765 - INFO - Processing game 1/10 (ID: 1002)
+2025-03-13 00:04:01,765 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:04:02,305 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:04:02,310 - WARNING - Unsuccessful query on attempt 1/5: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:04:02,310 - INFO - Waiting 10 seconds before retry...
+2025-03-13 00:04:12,709 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:04:12,711 - WARNING - Unsuccessful query on attempt 2/5: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:04:12,711 - INFO - Waiting 20 seconds before retry...
+2025-03-13 00:04:32,967 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:04:32,969 - WARNING - Unsuccessful query on attempt 3/5: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:04:32,969 - INFO - Waiting 30 seconds before retry...
+2025-03-13 00:05:03,400 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:05:03,402 - WARNING - Unsuccessful query on attempt 4/5: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:05:03,402 - INFO - Waiting 30 seconds before retry...
+2025-03-13 00:05:33,689 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:05:33,691 - WARNING - Unsuccessful query on attempt 5/5: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:05:33,691 - ERROR - Failed to get valid prediction for game 1002
+2025-03-13 00:05:33,691 - INFO - LLM prediction: None
+2025-03-13 00:05:33,691 - INFO - ❌ Incorrect prediction
+2025-03-13 00:05:38,694 - INFO - Processing game 2/10 (ID: 1101)
+2025-03-13 00:05:38,694 - INFO - Sending query to LLM (gemini-1.5-pro)...
+2025-03-13 00:05:38,974 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:05:38,976 - WARNING - Unsuccessful query on attempt 1/5: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:05:38,976 - INFO - Waiting 10 seconds before retry...
+2025-03-13 00:05:49,189 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:05:49,191 - WARNING - Unsuccessful query on attempt 2/5: 429 Resource has been exhausted (e.g. check quota).
+2025-03-13 00:05:49,191 - INFO - Waiting 20 seconds before retry...
