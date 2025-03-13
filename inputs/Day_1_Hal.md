@@ -139,107 +139,9 @@ This file contains the chat histories of the games you participated in during ou
 </details>
 
 
-<details>
-<summary>Game 4: (ID: 1302)</summary>
-
-| User | Color |
-| ---- | ----- |
-| You  | **⚫ Black** |
-| Other human  | **🟢 Green** |
-| Bot  | **🔵 Blue** |
-### The Chat:
-
-(🟢): **sup**
-
-(🟢): **hi**
-
-(⚫): **fine, you?**
-
-(🟢): **anyone wanna speak**
-
-(🔵): **hey how's it going**
-
-(🟢): **fine thanks**
-
-(🟢): **prepping for finals u know**
-
-### The Accusations:
-
-| User | Accusation |
-| ---- | ----- |
-| You  | **✅ Correct accusation** |
-| Other human  | **✅ Correct accusation** |
-</details>
-
 
 <details>
-<summary>Game 5: (ID: 1402)</summary>
-
-| User | Color |
-| ---- | ----- |
-| You  | **🟣 Purple** |
-| Other human  | **🟠 Orange** |
-| Bot  | **🟢 Green** |
-### The Chat:
-
-(🟣): **hear ye hear ye**
-
-(🟠): **hear what**
-
-(🟣): **what im bout to say**
-
-(🟠): **uhmm**
-
-(🟠): **dont play coy**
-
-(🟣): **whos up for a challenge?**
-
-(🟠): **another one is busy with diagnosing us ı guess**
-
-(🟠): **ım upp**
-
-(🟣): **so you're down?**
-
-(🟠): **r u ı she**
-
-### The Accusations:
-
-| User | Accusation |
-| ---- | ----- |
-| You  | **❌ Incorrect accusation** |
-| Other human  | **✅ Correct accusation** |
-</details>
-
-
-<details>
-<summary>Game 6: (ID: 1502)</summary>
-
-| User | Color |
-| ---- | ----- |
-| You  | **🟠 Orange** |
-| Other human  | **🟢 Green** |
-| Bot  | **🔴 Red** |
-### The Chat:
-
-(🟢): **sup**
-
-(🟢): **hiii**
-
-(🟠): **hello**
-
-(🟢): **red how are u**
-
-### The Accusations:
-
-| User | Accusation |
-| ---- | ----- |
-| You  | **✅ Correct accusation** |
-| Other human  | **✅ Correct accusation** |
-</details>
-
-
-<details>
-<summary>Game 7: (ID: 1601)</summary>
+<summary>Game 4: (ID: 1601)</summary>
 
 | User | Color |
 | ---- | ----- |
@@ -278,7 +180,7 @@ This file contains the chat histories of the games you participated in during ou
 
 
 <details>
-<summary>Game 8: (ID: 1703)</summary>
+<summary>Game 5: (ID: 1703)</summary>
 
 | User | Color |
 | ---- | ----- |
@@ -317,7 +219,7 @@ This file contains the chat histories of the games you participated in during ou
 
 
 <details>
-<summary>Game 9: (ID: 1801)</summary>
+<summary>Game 6: (ID: 1801)</summary>
 
 | User | Color |
 | ---- | ----- |
@@ -362,7 +264,7 @@ This file contains the chat histories of the games you participated in during ou
 
 
 <details>
-<summary>Game 10: (ID: 1903)</summary>
+<summary>Game 7: (ID: 1903)</summary>
 
 | User | Color |
 | ---- | ----- |

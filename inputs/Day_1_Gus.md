@@ -427,31 +427,9 @@ This file contains the chat histories of the games you participated in during ou
 </details>
 
 
-<details>
-<summary>Game 8: (ID: 1701)</summary>
-
-| User | Color |
-| ---- | ----- |
-| You  | **🟠 Orange** |
-| Other human  | **🟢 Green** |
-| Bot  | **🟣 Purple** |
-### The Chat:
-
-(🟢): **hiii**
-
-(🟠): **ok**
-
-### The Accusations:
-
-| User | Accusation |
-| ---- | ----- |
-| You  | **✅ Correct accusation** |
-| Other human  | **✅ Correct accusation** |
-</details>
-
 
 <details>
-<summary>Game 9: (ID: 1801)</summary>
+<summary>Game 8: (ID: 1801)</summary>
 
 | User | Color |
 | ---- | ----- |
@@ -485,29 +463,6 @@ This file contains the chat histories of the games you participated in during ou
 (🟣): **haha i am for sure, what about you**
 
 (⚫): **My day is fine if anyone is interested.**
-
-### The Accusations:
-
-| User | Accusation |
-| ---- | ----- |
-| You  | **✅ Correct accusation** |
-| Other human  | **✅ Correct accusation** |
-</details>
-
-
-<details>
-<summary>Game 10: (ID: 1901)</summary>
-
-| User | Color |
-| ---- | ----- |
-| You  | **🟢 Green** |
-| Other human  | **🔴 Red** |
-| Bot  | **🟠 Orange** |
-### The Chat:
-
-(🔴): **hiiiii**
-
-(🟢): **hi**
 
 ### The Accusations:
 

@@ -1138,3 +1138,671 @@ Processing file 1/1: control/Day_1_Kim.md
 2025-03-13 00:05:49,189 - ERROR - Error in query_llm for gemini-1.5-pro: 429 Resource has been exhausted (e.g. check quota).
 2025-03-13 00:05:49,191 - WARNING - Unsuccessful query on attempt 2/5: 429 Resource has been exhausted (e.g. check quota).
 2025-03-13 00:05:49,191 - INFO - Waiting 20 seconds before retry...
+2025-03-13 21:56:36,608 - INFO - Found API keys for: openai, gemini
+2025-03-13 21:56:36,609 - INFO - Found 1 files to process
+2025-03-13 21:56:36,609 - INFO - 
+Processing file 1/1: control/Day_1_Kim.md
+2025-03-13 21:56:36,609 - INFO - Starting experiment on control/Day_1_Kim.md with model claude-3.5-sonnet
+2025-03-13 21:56:36,609 - INFO - Parsing file: control/Day_1_Kim.md
+2025-03-13 21:56:36,609 - INFO - Found 10 game blocks in control/Day_1_Kim.md
+2025-03-13 21:56:36,609 - INFO - Game 1002: Successfully parsed
+2025-03-13 21:56:36,609 - INFO - Game 1101: Successfully parsed
+2025-03-13 21:56:36,609 - INFO - Game 1202: Successfully parsed
+2025-03-13 21:56:36,610 - INFO - Game 1303: Successfully parsed
+2025-03-13 21:56:36,610 - INFO - Game 1401: Successfully parsed
+2025-03-13 21:56:36,610 - INFO - Game 1503: Successfully parsed
+2025-03-13 21:56:36,610 - INFO - Game 1602: Successfully parsed
+2025-03-13 21:56:36,610 - INFO - Game 1702: Successfully parsed
+2025-03-13 21:56:36,610 - INFO - Game 1802: Successfully parsed
+2025-03-13 21:56:36,610 - INFO - Game 1902: Successfully parsed
+2025-03-13 21:56:36,610 - INFO - Successfully parsed 10/10 games from control/Day_1_Kim.md
+2025-03-13 21:56:36,610 - INFO - Found 10 valid games
+2025-03-13 21:56:36,610 - INFO - Processing game 1/10 (ID: 1002)
+2025-03-13 21:56:36,610 - INFO - Sending query to LLM (claude-3.5-sonnet)...
+2025-03-13 21:56:38,140 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-13 21:56:38,143 - ERROR - Error in query_llm for claude-3.5-sonnet: Error code: 404 - {'error': {'message': 'The model `claude-3.5-sonnet` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-03-13 21:56:38,148 - WARNING - Unsuccessful query on attempt 1/5: Error code: 404 - {'error': {'message': 'The model `claude-3.5-sonnet` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-03-13 21:56:38,148 - INFO - Waiting 10 seconds before retry...
+2025-03-13 21:59:03,613 - INFO - Found API keys for: openai, gemini
+2025-03-13 21:59:03,613 - INFO - Found 1 files to process
+2025-03-13 21:59:03,613 - INFO - 
+Processing file 1/1: control/Day_1_Kim.md
+2025-03-13 21:59:03,613 - INFO - Starting experiment on control/Day_1_Kim.md with model claude-3-5-haiku-20241022
+2025-03-13 21:59:03,613 - INFO - Parsing file: control/Day_1_Kim.md
+2025-03-13 21:59:03,613 - INFO - Found 10 game blocks in control/Day_1_Kim.md
+2025-03-13 21:59:03,613 - INFO - Game 1002: Successfully parsed
+2025-03-13 21:59:03,613 - INFO - Game 1101: Successfully parsed
+2025-03-13 21:59:03,613 - INFO - Game 1202: Successfully parsed
+2025-03-13 21:59:03,613 - INFO - Game 1303: Successfully parsed
+2025-03-13 21:59:03,614 - INFO - Game 1401: Successfully parsed
+2025-03-13 21:59:03,614 - INFO - Game 1503: Successfully parsed
+2025-03-13 21:59:03,614 - INFO - Game 1602: Successfully parsed
+2025-03-13 21:59:03,614 - INFO - Game 1702: Successfully parsed
+2025-03-13 21:59:03,614 - INFO - Game 1802: Successfully parsed
+2025-03-13 21:59:03,614 - INFO - Game 1902: Successfully parsed
+2025-03-13 21:59:03,614 - INFO - Successfully parsed 10/10 games from control/Day_1_Kim.md
+2025-03-13 21:59:03,614 - INFO - Found 10 valid games
+2025-03-13 21:59:03,614 - INFO - Processing game 1/10 (ID: 1002)
+2025-03-13 21:59:03,614 - INFO - Sending query to LLM (claude-3-5-haiku-20241022)...
+2025-03-13 21:59:04,385 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-13 21:59:04,387 - ERROR - Error in query_llm for claude-3-5-haiku-20241022: Error code: 404 - {'error': {'message': 'The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-03-13 21:59:04,392 - WARNING - Unsuccessful query on attempt 1/5: Error code: 404 - {'error': {'message': 'The model `claude-3-5-haiku-20241022` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2025-03-13 21:59:04,393 - INFO - Waiting 10 seconds before retry...
+2025-03-13 22:00:23,621 - INFO - Found API keys for: openai, gemini, anthropic
+2025-03-13 22:00:23,621 - INFO - Found 1 files to process
+2025-03-13 22:00:23,621 - INFO - 
+Processing file 1/1: control/Day_1_Kim.md
+2025-03-13 22:00:23,621 - INFO - Starting experiment on control/Day_1_Kim.md with model claude-3.5-haiku
+2025-03-13 22:00:23,621 - INFO - Parsing file: control/Day_1_Kim.md
+2025-03-13 22:00:23,621 - INFO - Found 10 game blocks in control/Day_1_Kim.md
+2025-03-13 22:00:23,621 - INFO - Game 1002: Successfully parsed
+2025-03-13 22:00:23,621 - INFO - Game 1101: Successfully parsed
+2025-03-13 22:00:23,621 - INFO - Game 1202: Successfully parsed
+2025-03-13 22:00:23,621 - INFO - Game 1303: Successfully parsed
+2025-03-13 22:00:23,622 - INFO - Game 1401: Successfully parsed
+2025-03-13 22:00:23,622 - INFO - Game 1503: Successfully parsed
+2025-03-13 22:00:23,622 - INFO - Game 1602: Successfully parsed
+2025-03-13 22:00:23,622 - INFO - Game 1702: Successfully parsed
+2025-03-13 22:00:23,622 - INFO - Game 1802: Successfully parsed
+2025-03-13 22:00:23,622 - INFO - Game 1902: Successfully parsed
+2025-03-13 22:00:23,622 - INFO - Successfully parsed 10/10 games from control/Day_1_Kim.md
+2025-03-13 22:00:23,622 - INFO - Found 10 valid games
+2025-03-13 22:00:23,622 - INFO - Processing game 1/10 (ID: 1002)
+2025-03-13 22:00:23,622 - INFO - Sending query to LLM (claude-3.5-haiku)...
+2025-03-13 22:00:24,027 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 404 Not Found"
+2025-03-13 22:00:24,029 - ERROR - Error in query_llm for claude-3.5-haiku: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3.5-haiku'}}
+2025-03-13 22:00:24,031 - WARNING - Unsuccessful query on attempt 1/5: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3.5-haiku'}}
+2025-03-13 22:00:24,031 - INFO - Waiting 10 seconds before retry...
+2025-03-13 22:00:34,280 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 404 Not Found"
+2025-03-13 22:00:34,283 - ERROR - Error in query_llm for claude-3.5-haiku: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3.5-haiku'}}
+2025-03-13 22:00:34,284 - WARNING - Unsuccessful query on attempt 2/5: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3.5-haiku'}}
+2025-03-13 22:00:34,284 - INFO - Waiting 20 seconds before retry...
+2025-03-13 22:03:08,701 - INFO - Found API keys for: openai, gemini, anthropic
+2025-03-13 22:03:08,701 - INFO - Found 1 files to process
+2025-03-13 22:03:08,701 - INFO - 
+Processing file 1/1: control/Day_1_Kim.md
+2025-03-13 22:03:08,701 - INFO - Starting experiment on control/Day_1_Kim.md with model claude-3.5-verse
+2025-03-13 22:03:08,701 - INFO - Parsing file: control/Day_1_Kim.md
+2025-03-13 22:03:08,701 - INFO - Found 10 game blocks in control/Day_1_Kim.md
+2025-03-13 22:03:08,701 - INFO - Game 1002: Successfully parsed
+2025-03-13 22:03:08,701 - INFO - Game 1101: Successfully parsed
+2025-03-13 22:03:08,701 - INFO - Game 1202: Successfully parsed
+2025-03-13 22:03:08,701 - INFO - Game 1303: Successfully parsed
+2025-03-13 22:03:08,701 - INFO - Game 1401: Successfully parsed
+2025-03-13 22:03:08,701 - INFO - Game 1503: Successfully parsed
+2025-03-13 22:03:08,701 - INFO - Game 1602: Successfully parsed
+2025-03-13 22:03:08,701 - INFO - Game 1702: Successfully parsed
+2025-03-13 22:03:08,702 - INFO - Game 1802: Successfully parsed
+2025-03-13 22:03:08,702 - INFO - Game 1902: Successfully parsed
+2025-03-13 22:03:08,702 - INFO - Successfully parsed 10/10 games from control/Day_1_Kim.md
+2025-03-13 22:03:08,702 - INFO - Found 10 valid games
+2025-03-13 22:03:08,702 - INFO - Processing game 1/10 (ID: 1002)
+2025-03-13 22:03:08,702 - INFO - Sending query to LLM (claude-3.5-verse)...
+2025-03-13 22:03:09,097 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 404 Not Found"
+2025-03-13 22:03:09,098 - ERROR - Error in query_llm for claude-3.5-verse: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3.5-verse'}}
+2025-03-13 22:03:09,103 - WARNING - Unsuccessful query on attempt 1/5: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3.5-verse'}}
+2025-03-13 22:03:09,103 - INFO - Waiting 10 seconds before retry...
+2025-03-13 22:03:21,205 - INFO - Found API keys for: openai, gemini, anthropic
+2025-03-13 22:03:21,205 - INFO - Found 1 files to process
+2025-03-13 22:03:21,205 - INFO - 
+Processing file 1/1: control/Day_1_Kim.md
+2025-03-13 22:03:21,205 - INFO - Starting experiment on control/Day_1_Kim.md with model claude-3-5-haiku-20241022
+2025-03-13 22:03:21,205 - INFO - Parsing file: control/Day_1_Kim.md
+2025-03-13 22:03:21,205 - INFO - Found 10 game blocks in control/Day_1_Kim.md
+2025-03-13 22:03:21,205 - INFO - Game 1002: Successfully parsed
+2025-03-13 22:03:21,205 - INFO - Game 1101: Successfully parsed
+2025-03-13 22:03:21,205 - INFO - Game 1202: Successfully parsed
+2025-03-13 22:03:21,205 - INFO - Game 1303: Successfully parsed
+2025-03-13 22:03:21,205 - INFO - Game 1401: Successfully parsed
+2025-03-13 22:03:21,205 - INFO - Game 1503: Successfully parsed
+2025-03-13 22:03:21,206 - INFO - Game 1602: Successfully parsed
+2025-03-13 22:03:21,206 - INFO - Game 1702: Successfully parsed
+2025-03-13 22:03:21,206 - INFO - Game 1802: Successfully parsed
+2025-03-13 22:03:21,206 - INFO - Game 1902: Successfully parsed
+2025-03-13 22:03:21,206 - INFO - Successfully parsed 10/10 games from control/Day_1_Kim.md
+2025-03-13 22:03:21,206 - INFO - Found 10 valid games
+2025-03-13 22:03:21,206 - INFO - Processing game 1/10 (ID: 1002)
+2025-03-13 22:03:21,206 - INFO - Sending query to LLM (claude-3-5-haiku-20241022)...
+2025-03-13 22:03:22,060 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:03:22,068 - INFO - LLM prediction: user1
+2025-03-13 22:03:22,069 - INFO - ❌ Incorrect prediction
+2025-03-13 22:03:32,074 - INFO - Processing game 2/10 (ID: 1101)
+2025-03-13 22:03:32,074 - INFO - Sending query to LLM (claude-3-5-haiku-20241022)...
+2025-03-13 22:03:34,712 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:03:34,714 - INFO - LLM prediction: user2
+2025-03-13 22:03:34,714 - INFO - ✅ Correct prediction
+2025-03-13 22:03:44,719 - INFO - Processing game 3/10 (ID: 1202)
+2025-03-13 22:03:44,719 - INFO - Sending query to LLM (claude-3-5-haiku-20241022)...
+2025-03-13 22:03:48,820 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:03:48,821 - INFO - LLM prediction: user1
+2025-03-13 22:03:48,822 - INFO - ❌ Incorrect prediction
+2025-03-13 22:03:58,827 - INFO - Processing game 4/10 (ID: 1303)
+2025-03-13 22:03:58,827 - INFO - Sending query to LLM (claude-3-5-haiku-20241022)...
+2025-03-13 22:04:02,856 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:04:02,857 - INFO - LLM prediction: user2
+2025-03-13 22:04:02,857 - INFO - ❌ Incorrect prediction
+2025-03-13 22:04:12,863 - INFO - Processing game 5/10 (ID: 1401)
+2025-03-13 22:04:12,863 - WARNING - Game 1401: Not all users appear in chat (only {'user3', 'user1'})
+2025-03-13 22:04:12,863 - INFO - Sending query to LLM (claude-3-5-haiku-20241022)...
+2025-03-13 22:04:15,643 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:04:15,644 - INFO - LLM prediction: user3
+2025-03-13 22:04:15,644 - INFO - ❌ Incorrect prediction
+2025-03-13 22:04:25,649 - INFO - Processing game 6/10 (ID: 1503)
+2025-03-13 22:04:25,650 - WARNING - Game 1503: Not all users appear in chat (only {'user3', 'user1'})
+2025-03-13 22:04:25,650 - INFO - Sending query to LLM (claude-3-5-haiku-20241022)...
+2025-03-13 22:04:27,901 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:04:27,902 - INFO - LLM prediction: user3
+2025-03-13 22:04:27,902 - INFO - ❌ Incorrect prediction
+2025-03-13 22:04:37,903 - INFO - Processing game 7/10 (ID: 1602)
+2025-03-13 22:04:37,903 - INFO - Sending query to LLM (claude-3-5-haiku-20241022)...
+2025-03-13 22:04:38,578 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:04:38,580 - INFO - LLM prediction: user2
+2025-03-13 22:04:38,580 - INFO - ❌ Incorrect prediction
+2025-03-13 22:04:48,585 - INFO - Processing game 8/10 (ID: 1702)
+2025-03-13 22:04:48,586 - INFO - Sending query to LLM (claude-3-5-haiku-20241022)...
+2025-03-13 22:04:49,234 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:04:49,235 - INFO - LLM prediction: user3
+2025-03-13 22:04:49,235 - INFO - ❌ Incorrect prediction
+2025-03-13 22:04:59,241 - INFO - Processing game 9/10 (ID: 1802)
+2025-03-13 22:04:59,241 - WARNING - Game 1802: Not all users appear in chat (only {'user3', 'user1'})
+2025-03-13 22:04:59,241 - INFO - Sending query to LLM (claude-3-5-haiku-20241022)...
+2025-03-13 22:05:02,839 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:05:02,841 - INFO - LLM prediction: user3
+2025-03-13 22:05:02,841 - INFO - ❌ Incorrect prediction
+2025-03-13 22:05:12,843 - INFO - Processing game 10/10 (ID: 1902)
+2025-03-13 22:05:12,843 - WARNING - Game 1902: Not all users appear in chat (only {'user3', 'user1'})
+2025-03-13 22:05:12,844 - INFO - Sending query to LLM (claude-3-5-haiku-20241022)...
+2025-03-13 22:05:13,350 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:05:13,351 - INFO - LLM prediction: user1
+2025-03-13 22:05:13,352 - INFO - ❌ Incorrect prediction
+2025-03-13 22:05:13,352 - INFO - Experiment complete.
+2025-03-13 22:05:13,353 - INFO - Accuracy: 10.00% (1/10)
+2025-03-13 22:05:13,353 - INFO - API Errors: 0
+2025-03-13 22:05:13,353 - INFO - Average latency: 2.21s
+2025-03-13 22:05:13,359 - INFO - Saved intermediate results to claude-results.json
+2025-03-13 22:05:13,360 - INFO - 
+Experiment complete!
+2025-03-13 22:05:13,360 - INFO - Processed 1/1 files
+2025-03-13 22:05:13,360 - INFO - Total games: 10
+2025-03-13 22:05:13,360 - INFO - Overall accuracy: 10.00% (1/10)
+2025-03-13 22:05:13,360 - INFO - Results saved to claude-results.json
+2025-03-13 22:11:48,281 - INFO - Found API keys for: openai, gemini, anthropic
+2025-03-13 22:11:48,281 - INFO - Found 1 files to process
+2025-03-13 22:11:48,281 - INFO - 
+Processing file 1/1: control/Day_1_Kim.md
+2025-03-13 22:11:48,281 - INFO - Starting experiment on control/Day_1_Kim.md with model claude-3-5-sonnet-20240620
+2025-03-13 22:11:48,281 - INFO - Parsing file: control/Day_1_Kim.md
+2025-03-13 22:11:48,281 - INFO - Found 10 game blocks in control/Day_1_Kim.md
+2025-03-13 22:11:48,281 - INFO - Game 1002: Successfully parsed
+2025-03-13 22:11:48,281 - INFO - Game 1101: Successfully parsed
+2025-03-13 22:11:48,281 - INFO - Game 1202: Successfully parsed
+2025-03-13 22:11:48,281 - INFO - Game 1303: Successfully parsed
+2025-03-13 22:11:48,281 - INFO - Game 1401: Successfully parsed
+2025-03-13 22:11:48,281 - INFO - Game 1503: Successfully parsed
+2025-03-13 22:11:48,281 - INFO - Game 1602: Successfully parsed
+2025-03-13 22:11:48,281 - INFO - Game 1702: Successfully parsed
+2025-03-13 22:11:48,281 - INFO - Game 1802: Successfully parsed
+2025-03-13 22:11:48,281 - INFO - Game 1902: Successfully parsed
+2025-03-13 22:11:48,281 - INFO - Successfully parsed 10/10 games from control/Day_1_Kim.md
+2025-03-13 22:11:48,281 - INFO - Found 10 valid games
+2025-03-13 22:11:48,281 - INFO - Processing game 1/10 (ID: 1002)
+2025-03-13 22:11:48,282 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:11:49,066 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:11:49,075 - INFO - LLM prediction: user3
+2025-03-13 22:11:49,075 - INFO - ❌ Incorrect prediction
+2025-03-13 22:11:59,080 - INFO - Processing game 2/10 (ID: 1101)
+2025-03-13 22:11:59,081 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:12:00,066 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:12:00,068 - INFO - LLM prediction: user2
+2025-03-13 22:12:00,068 - INFO - ✅ Correct prediction
+2025-03-13 22:12:10,070 - INFO - Processing game 3/10 (ID: 1202)
+2025-03-13 22:12:10,070 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:12:10,879 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:12:10,881 - INFO - LLM prediction: user2
+2025-03-13 22:12:10,881 - INFO - ❌ Incorrect prediction
+2025-03-13 22:12:20,882 - INFO - Processing game 4/10 (ID: 1303)
+2025-03-13 22:12:20,882 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:12:21,897 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:12:21,899 - INFO - LLM prediction: user1
+2025-03-13 22:12:21,899 - INFO - ✅ Correct prediction
+2025-03-13 22:12:31,903 - INFO - Processing game 5/10 (ID: 1401)
+2025-03-13 22:12:31,903 - WARNING - Game 1401: Not all users appear in chat (only {'user2', 'user3'})
+2025-03-13 22:12:31,903 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:12:32,810 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:12:32,812 - INFO - LLM prediction: user1
+2025-03-13 22:12:32,812 - INFO - ✅ Correct prediction
+2025-03-13 22:12:42,812 - INFO - Processing game 6/10 (ID: 1503)
+2025-03-13 22:12:42,813 - WARNING - Game 1503: Not all users appear in chat (only {'user1', 'user3'})
+2025-03-13 22:12:42,813 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:12:44,519 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:12:44,520 - INFO - LLM prediction: user2
+2025-03-13 22:12:44,520 - INFO - ✅ Correct prediction
+2025-03-13 22:12:54,524 - INFO - Processing game 7/10 (ID: 1602)
+2025-03-13 22:12:54,525 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:12:55,135 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:12:55,137 - INFO - LLM prediction: user1
+2025-03-13 22:12:55,137 - INFO - ❌ Incorrect prediction
+2025-03-13 22:13:05,142 - INFO - Processing game 8/10 (ID: 1702)
+2025-03-13 22:13:05,143 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:13:05,875 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:13:05,876 - INFO - LLM prediction: user1
+2025-03-13 22:13:05,877 - INFO - ❌ Incorrect prediction
+2025-03-13 22:13:15,881 - INFO - Processing game 9/10 (ID: 1802)
+2025-03-13 22:13:15,881 - WARNING - Game 1802: Not all users appear in chat (only {'user1', 'user3'})
+2025-03-13 22:13:15,882 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:13:16,512 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:13:16,514 - INFO - LLM prediction: user2
+2025-03-13 22:13:16,514 - INFO - ✅ Correct prediction
+2025-03-13 22:13:26,518 - INFO - Processing game 10/10 (ID: 1902)
+2025-03-13 22:13:26,519 - WARNING - Game 1902: Not all users appear in chat (only {'user2', 'user3'})
+2025-03-13 22:13:26,519 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:13:27,162 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:13:27,164 - INFO - LLM prediction: user1
+2025-03-13 22:13:27,164 - INFO - ✅ Correct prediction
+2025-03-13 22:13:27,164 - INFO - Experiment complete.
+2025-03-13 22:13:27,164 - INFO - Accuracy: 60.00% (6/10)
+2025-03-13 22:13:27,164 - INFO - API Errors: 0
+2025-03-13 22:13:27,164 - INFO - Average latency: 0.88s
+2025-03-13 22:13:27,166 - INFO - Saved intermediate results to claude-sonneet-results.json
+2025-03-13 22:13:27,167 - INFO - 
+Experiment complete!
+2025-03-13 22:13:27,167 - INFO - Processed 1/1 files
+2025-03-13 22:13:27,167 - INFO - Total games: 10
+2025-03-13 22:13:27,167 - INFO - Overall accuracy: 60.00% (6/10)
+2025-03-13 22:13:27,167 - INFO - Results saved to claude-sonneet-results.json
+2025-03-13 22:22:01,951 - INFO - Found API keys for: openai, gemini, anthropic
+2025-03-13 22:22:01,951 - INFO - Found 5 files to process
+2025-03-13 22:22:01,951 - INFO - 
+Processing file 1/5: inputs/Day_1_Hal.md
+2025-03-13 22:22:01,951 - INFO - Starting experiment on inputs/Day_1_Hal.md with model claude-3-5-sonnet-20240620
+2025-03-13 22:22:01,951 - INFO - Parsing file: inputs/Day_1_Hal.md
+2025-03-13 22:22:01,951 - INFO - Found 7 game blocks in inputs/Day_1_Hal.md
+2025-03-13 22:22:01,952 - INFO - Game 1002: Successfully parsed
+2025-03-13 22:22:01,952 - INFO - Game 1102: Successfully parsed
+2025-03-13 22:22:01,952 - INFO - Game 1202: Successfully parsed
+2025-03-13 22:22:01,952 - INFO - Game 1601: Successfully parsed
+2025-03-13 22:22:01,952 - INFO - Game 1703: Successfully parsed
+2025-03-13 22:22:01,952 - INFO - Game 1801: Successfully parsed
+2025-03-13 22:22:01,952 - INFO - Game 1903: Successfully parsed
+2025-03-13 22:22:01,952 - INFO - Successfully parsed 7/7 games from inputs/Day_1_Hal.md
+2025-03-13 22:22:01,952 - INFO - Found 7 valid games
+2025-03-13 22:22:01,952 - INFO - Processing game 1/7 (ID: 1002)
+2025-03-13 22:22:01,952 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:22:02,744 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:22:02,751 - INFO - Raw response: user3
+2025-03-13 22:22:02,752 - INFO - LLM prediction: user3
+2025-03-13 22:22:02,752 - INFO - ❌ Incorrect prediction
+2025-03-13 22:22:12,756 - INFO - Processing game 2/7 (ID: 1102)
+2025-03-13 22:22:12,756 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:22:13,445 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:22:13,447 - INFO - Raw response: user3
+2025-03-13 22:22:13,447 - INFO - LLM prediction: user3
+2025-03-13 22:22:13,448 - INFO - ❌ Incorrect prediction
+2025-03-13 22:22:23,453 - INFO - Processing game 3/7 (ID: 1202)
+2025-03-13 22:22:23,453 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:22:24,549 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:22:24,551 - INFO - Raw response: user3
+2025-03-13 22:22:24,551 - INFO - LLM prediction: user3
+2025-03-13 22:22:24,551 - INFO - ❌ Incorrect prediction
+2025-03-13 22:22:34,555 - INFO - Processing game 4/7 (ID: 1601)
+2025-03-13 22:22:34,556 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:22:37,212 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:22:37,214 - INFO - Raw response: user3
+2025-03-13 22:22:37,214 - INFO - LLM prediction: user3
+2025-03-13 22:22:37,214 - INFO - ❌ Incorrect prediction
+2025-03-13 22:22:47,217 - INFO - Processing game 5/7 (ID: 1703)
+2025-03-13 22:22:47,218 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:22:47,745 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:22:47,746 - INFO - Raw response: user2
+2025-03-13 22:22:47,746 - INFO - LLM prediction: user2
+2025-03-13 22:22:47,747 - INFO - ❌ Incorrect prediction
+2025-03-13 22:22:57,751 - INFO - Processing game 6/7 (ID: 1801)
+2025-03-13 22:22:57,751 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:22:59,126 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:22:59,128 - INFO - Raw response: user3
+2025-03-13 22:22:59,128 - INFO - LLM prediction: user3
+2025-03-13 22:22:59,128 - INFO - ✅ Correct prediction
+2025-03-13 22:23:09,133 - INFO - Processing game 7/7 (ID: 1903)
+2025-03-13 22:23:09,134 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:23:10,049 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:23:10,050 - INFO - Raw response: user3
+2025-03-13 22:23:10,050 - INFO - LLM prediction: user3
+2025-03-13 22:23:10,050 - INFO - ❌ Incorrect prediction
+2025-03-13 22:23:10,051 - INFO - Experiment complete.
+2025-03-13 22:23:10,051 - INFO - Accuracy: 14.29% (1/7)
+2025-03-13 22:23:10,051 - INFO - API Errors: 0
+2025-03-13 22:23:10,051 - INFO - Average latency: 1.15s
+2025-03-13 22:23:10,052 - INFO - Saved intermediate results to claude-sonnet-results.json
+2025-03-13 22:23:10,052 - INFO - 
+Processing file 2/5: inputs/Day_1_Gus.md
+2025-03-13 22:23:10,052 - INFO - Starting experiment on inputs/Day_1_Gus.md with model claude-3-5-sonnet-20240620
+2025-03-13 22:23:10,052 - INFO - Parsing file: inputs/Day_1_Gus.md
+2025-03-13 22:23:10,053 - INFO - Found 8 game blocks in inputs/Day_1_Gus.md
+2025-03-13 22:23:10,053 - INFO - Game 1001: Successfully parsed
+2025-03-13 22:23:10,053 - INFO - Game 1101: Successfully parsed
+2025-03-13 22:23:10,053 - INFO - Game 1201: Successfully parsed
+2025-03-13 22:23:10,053 - INFO - Game 1301: Successfully parsed
+2025-03-13 22:23:10,053 - INFO - Game 1401: Successfully parsed
+2025-03-13 22:23:10,054 - INFO - Game 1501: Successfully parsed
+2025-03-13 22:23:10,054 - INFO - Game 1601: Successfully parsed
+2025-03-13 22:23:10,054 - INFO - Game 1801: Successfully parsed
+2025-03-13 22:23:10,054 - INFO - Successfully parsed 8/8 games from inputs/Day_1_Gus.md
+2025-03-13 22:23:10,054 - INFO - Found 8 valid games
+2025-03-13 22:23:10,054 - INFO - Processing game 1/8 (ID: 1001)
+2025-03-13 22:23:10,054 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:23:11,124 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:23:11,125 - INFO - Raw response: user3
+2025-03-13 22:23:11,125 - INFO - LLM prediction: user3
+2025-03-13 22:23:11,125 - INFO - ❌ Incorrect prediction
+2025-03-13 22:23:21,131 - INFO - Processing game 2/8 (ID: 1101)
+2025-03-13 22:23:21,131 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:23:22,455 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:23:22,456 - INFO - Raw response: user2
+2025-03-13 22:23:22,456 - INFO - LLM prediction: user2
+2025-03-13 22:23:22,457 - INFO - ✅ Correct prediction
+2025-03-13 22:23:32,461 - INFO - Processing game 3/8 (ID: 1201)
+2025-03-13 22:23:32,461 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:23:33,624 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:23:33,626 - INFO - Raw response: user1
+2025-03-13 22:23:33,626 - INFO - LLM prediction: user1
+2025-03-13 22:23:33,626 - INFO - ✅ Correct prediction
+2025-03-13 22:23:43,629 - INFO - Processing game 4/8 (ID: 1301)
+2025-03-13 22:23:43,630 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:23:45,086 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:23:45,088 - INFO - Raw response: user2
+2025-03-13 22:23:45,088 - INFO - LLM prediction: user2
+2025-03-13 22:23:45,088 - INFO - ❌ Incorrect prediction
+2025-03-13 22:23:55,093 - INFO - Processing game 5/8 (ID: 1401)
+2025-03-13 22:23:55,094 - WARNING - Game 1401: Not all users appear in chat (only {'user3', 'user2'})
+2025-03-13 22:23:55,094 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:23:56,045 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:23:56,046 - INFO - Raw response: user1
+2025-03-13 22:23:56,047 - INFO - LLM prediction: user1
+2025-03-13 22:23:56,047 - INFO - ✅ Correct prediction
+2025-03-13 22:24:06,052 - INFO - Processing game 6/8 (ID: 1501)
+2025-03-13 22:24:06,052 - WARNING - Game 1501: Not all users appear in chat (only {'user3', 'user2'})
+2025-03-13 22:24:06,052 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:24:07,040 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:24:07,045 - INFO - Raw response: user1
+2025-03-13 22:24:07,045 - INFO - LLM prediction: user1
+2025-03-13 22:24:07,045 - INFO - ✅ Correct prediction
+2025-03-13 22:24:17,050 - INFO - Processing game 7/8 (ID: 1601)
+2025-03-13 22:24:17,050 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:24:17,710 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:24:17,712 - INFO - Raw response: user3
+2025-03-13 22:24:17,712 - INFO - LLM prediction: user3
+2025-03-13 22:24:17,712 - INFO - ❌ Incorrect prediction
+2025-03-13 22:24:27,717 - INFO - Processing game 8/8 (ID: 1801)
+2025-03-13 22:24:27,718 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:24:28,598 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:24:28,599 - INFO - Raw response: user1
+2025-03-13 22:24:28,599 - INFO - LLM prediction: user1
+2025-03-13 22:24:28,599 - INFO - ✅ Correct prediction
+2025-03-13 22:24:28,600 - INFO - Experiment complete.
+2025-03-13 22:24:28,600 - INFO - Accuracy: 62.50% (5/8)
+2025-03-13 22:24:28,600 - INFO - API Errors: 0
+2025-03-13 22:24:28,600 - INFO - Average latency: 1.06s
+2025-03-13 22:24:28,601 - INFO - Saved intermediate results to claude-sonnet-results.json
+2025-03-13 22:24:28,601 - INFO - 
+Processing file 3/5: inputs/Day_1_Kim.md
+2025-03-13 22:24:28,601 - INFO - Starting experiment on inputs/Day_1_Kim.md with model claude-3-5-sonnet-20240620
+2025-03-13 22:24:28,601 - INFO - Parsing file: inputs/Day_1_Kim.md
+2025-03-13 22:24:28,601 - INFO - Found 10 game blocks in inputs/Day_1_Kim.md
+2025-03-13 22:24:28,602 - INFO - Game 1002: Successfully parsed
+2025-03-13 22:24:28,602 - INFO - Game 1101: Successfully parsed
+2025-03-13 22:24:28,602 - INFO - Game 1202: Successfully parsed
+2025-03-13 22:24:28,602 - INFO - Game 1303: Successfully parsed
+2025-03-13 22:24:28,602 - INFO - Game 1401: Successfully parsed
+2025-03-13 22:24:28,602 - INFO - Game 1503: Successfully parsed
+2025-03-13 22:24:28,602 - INFO - Game 1602: Successfully parsed
+2025-03-13 22:24:28,602 - INFO - Game 1702: Successfully parsed
+2025-03-13 22:24:28,602 - INFO - Game 1802: Successfully parsed
+2025-03-13 22:24:28,602 - INFO - Game 1902: Successfully parsed
+2025-03-13 22:24:28,602 - INFO - Successfully parsed 10/10 games from inputs/Day_1_Kim.md
+2025-03-13 22:24:28,602 - INFO - Found 10 valid games
+2025-03-13 22:24:28,603 - INFO - Processing game 1/10 (ID: 1002)
+2025-03-13 22:24:28,603 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:24:29,769 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:24:29,770 - INFO - Raw response: user3
+2025-03-13 22:24:29,771 - INFO - LLM prediction: user3
+2025-03-13 22:24:29,771 - INFO - ✅ Correct prediction
+2025-03-13 22:24:39,774 - INFO - Processing game 2/10 (ID: 1101)
+2025-03-13 22:24:39,774 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:24:41,128 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:24:41,130 - INFO - Raw response: user1
+2025-03-13 22:24:41,130 - INFO - LLM prediction: user1
+2025-03-13 22:24:41,130 - INFO - ✅ Correct prediction
+2025-03-13 22:24:51,132 - INFO - Processing game 3/10 (ID: 1202)
+2025-03-13 22:24:51,133 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:24:52,548 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:24:52,550 - INFO - Raw response: user1
+2025-03-13 22:24:52,550 - INFO - LLM prediction: user1
+2025-03-13 22:24:52,551 - INFO - ❌ Incorrect prediction
+2025-03-13 22:25:02,571 - INFO - Processing game 4/10 (ID: 1303)
+2025-03-13 22:25:02,572 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:25:04,093 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:25:04,095 - INFO - Raw response: user2
+2025-03-13 22:25:04,095 - INFO - LLM prediction: user2
+2025-03-13 22:25:04,095 - INFO - ❌ Incorrect prediction
+2025-03-13 22:25:14,114 - INFO - Processing game 5/10 (ID: 1401)
+2025-03-13 22:25:14,115 - WARNING - Game 1401: Not all users appear in chat (only {'user3', 'user2'})
+2025-03-13 22:25:14,115 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:25:15,294 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:25:15,295 - INFO - Raw response: user1
+2025-03-13 22:25:15,295 - INFO - LLM prediction: user1
+2025-03-13 22:25:15,295 - INFO - ✅ Correct prediction
+2025-03-13 22:25:25,307 - INFO - Processing game 6/10 (ID: 1503)
+2025-03-13 22:25:25,308 - WARNING - Game 1503: Not all users appear in chat (only {'user1', 'user2'})
+2025-03-13 22:25:25,308 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:25:26,759 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:25:26,769 - INFO - Raw response: user3
+2025-03-13 22:25:26,770 - INFO - LLM prediction: user3
+2025-03-13 22:25:26,770 - INFO - ✅ Correct prediction
+2025-03-13 22:25:36,778 - INFO - Processing game 7/10 (ID: 1602)
+2025-03-13 22:25:36,779 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:25:37,333 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:25:37,335 - INFO - Raw response: user1
+2025-03-13 22:25:37,335 - INFO - LLM prediction: user1
+2025-03-13 22:25:37,335 - INFO - ❌ Incorrect prediction
+2025-03-13 22:25:47,342 - INFO - Processing game 8/10 (ID: 1702)
+2025-03-13 22:25:47,342 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:25:48,137 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:25:48,139 - INFO - Raw response: user3
+2025-03-13 22:25:48,139 - INFO - LLM prediction: user3
+2025-03-13 22:25:48,139 - INFO - ❌ Incorrect prediction
+2025-03-13 22:25:58,142 - INFO - Processing game 9/10 (ID: 1802)
+2025-03-13 22:25:58,143 - WARNING - Game 1802: Not all users appear in chat (only {'user3', 'user2'})
+2025-03-13 22:25:58,143 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:25:59,107 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:25:59,109 - INFO - Raw response: user3
+2025-03-13 22:25:59,109 - INFO - LLM prediction: user3
+2025-03-13 22:25:59,109 - INFO - ❌ Incorrect prediction
+2025-03-13 22:26:09,115 - INFO - Processing game 10/10 (ID: 1902)
+2025-03-13 22:26:09,115 - WARNING - Game 1902: Not all users appear in chat (only {'user3', 'user2'})
+2025-03-13 22:26:09,116 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:26:10,290 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:26:10,305 - INFO - Raw response: user1
+2025-03-13 22:26:10,305 - INFO - LLM prediction: user1
+2025-03-13 22:26:10,305 - INFO - ✅ Correct prediction
+2025-03-13 22:26:10,306 - INFO - Experiment complete.
+2025-03-13 22:26:10,306 - INFO - Accuracy: 50.00% (5/10)
+2025-03-13 22:26:10,306 - INFO - API Errors: 0
+2025-03-13 22:26:10,306 - INFO - Average latency: 1.16s
+2025-03-13 22:26:10,307 - INFO - Saved intermediate results to claude-sonnet-results.json
+2025-03-13 22:26:10,307 - INFO - 
+Processing file 4/5: inputs/Day_1_Jan.md
+2025-03-13 22:26:10,307 - INFO - Starting experiment on inputs/Day_1_Jan.md with model claude-3-5-sonnet-20240620
+2025-03-13 22:26:10,308 - INFO - Parsing file: inputs/Day_1_Jan.md
+2025-03-13 22:26:10,308 - INFO - Found 10 game blocks in inputs/Day_1_Jan.md
+2025-03-13 22:26:10,308 - INFO - Game 1003: Successfully parsed
+2025-03-13 22:26:10,308 - INFO - Game 1102: Successfully parsed
+2025-03-13 22:26:10,308 - INFO - Game 1203: Successfully parsed
+2025-03-13 22:26:10,308 - INFO - Game 1301: Successfully parsed
+2025-03-13 22:26:10,308 - INFO - Game 1402: Successfully parsed
+2025-03-13 22:26:10,309 - INFO - Game 1501: Successfully parsed
+2025-03-13 22:26:10,309 - INFO - Game 1603: Successfully parsed
+2025-03-13 22:26:10,309 - INFO - Game 1702: Successfully parsed
+2025-03-13 22:26:10,309 - INFO - Game 1803: Successfully parsed
+2025-03-13 22:26:10,309 - INFO - Game 1902: Successfully parsed
+2025-03-13 22:26:10,309 - INFO - Successfully parsed 10/10 games from inputs/Day_1_Jan.md
+2025-03-13 22:26:10,309 - INFO - Found 10 valid games
+2025-03-13 22:26:10,309 - INFO - Processing game 1/10 (ID: 1003)
+2025-03-13 22:26:10,309 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:26:10,837 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:26:10,838 - INFO - Raw response: user3
+2025-03-13 22:26:10,839 - INFO - LLM prediction: user3
+2025-03-13 22:26:10,839 - INFO - ❌ Incorrect prediction
+2025-03-13 22:26:20,844 - INFO - Processing game 2/10 (ID: 1102)
+2025-03-13 22:26:20,845 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:26:22,110 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:26:22,111 - INFO - Raw response: user3
+2025-03-13 22:26:22,112 - INFO - LLM prediction: user3
+2025-03-13 22:26:22,112 - INFO - ❌ Incorrect prediction
+2025-03-13 22:26:32,117 - INFO - Processing game 3/10 (ID: 1203)
+2025-03-13 22:26:32,117 - WARNING - Game 1203: Not all users appear in chat (only {'user1', 'user3'})
+2025-03-13 22:26:32,118 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:26:32,724 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:26:32,726 - INFO - Raw response: user2
+2025-03-13 22:26:32,726 - INFO - LLM prediction: user2
+2025-03-13 22:26:32,726 - INFO - ✅ Correct prediction
+2025-03-13 22:26:42,728 - INFO - Processing game 4/10 (ID: 1301)
+2025-03-13 22:26:42,729 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:26:43,349 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:26:43,351 - INFO - Raw response: user2
+2025-03-13 22:26:43,351 - INFO - LLM prediction: user2
+2025-03-13 22:26:43,351 - INFO - ❌ Incorrect prediction
+2025-03-13 22:26:53,355 - INFO - Processing game 5/10 (ID: 1402)
+2025-03-13 22:26:53,356 - WARNING - Game 1402: Not all users appear in chat (only {'user3', 'user2'})
+2025-03-13 22:26:53,356 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:26:54,161 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:26:54,163 - INFO - Raw response: user1
+2025-03-13 22:26:54,163 - INFO - LLM prediction: user1
+2025-03-13 22:26:54,163 - INFO - ✅ Correct prediction
+2025-03-13 22:27:04,168 - INFO - Processing game 6/10 (ID: 1501)
+2025-03-13 22:27:04,169 - WARNING - Game 1501: Not all users appear in chat (only {'user1', 'user3'})
+2025-03-13 22:27:04,169 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:27:05,204 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:27:05,206 - INFO - Raw response: user2
+2025-03-13 22:27:05,206 - INFO - LLM prediction: user2
+2025-03-13 22:27:05,207 - INFO - ✅ Correct prediction
+2025-03-13 22:27:15,212 - INFO - Processing game 7/10 (ID: 1603)
+2025-03-13 22:27:15,212 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:27:16,202 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:27:16,204 - INFO - Raw response: user3
+2025-03-13 22:27:16,204 - INFO - LLM prediction: user3
+2025-03-13 22:27:16,205 - INFO - ❌ Incorrect prediction
+2025-03-13 22:27:26,211 - INFO - Processing game 8/10 (ID: 1702)
+2025-03-13 22:27:26,211 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:27:26,792 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:27:26,797 - INFO - Raw response: user3
+2025-03-13 22:27:26,797 - INFO - LLM prediction: user3
+2025-03-13 22:27:26,797 - INFO - ❌ Incorrect prediction
+2025-03-13 22:27:36,803 - INFO - Processing game 9/10 (ID: 1803)
+2025-03-13 22:27:36,803 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:27:37,675 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:27:37,677 - INFO - Raw response: user3
+2025-03-13 22:27:37,677 - INFO - LLM prediction: user3
+2025-03-13 22:27:37,677 - INFO - ✅ Correct prediction
+2025-03-13 22:27:47,679 - INFO - Processing game 10/10 (ID: 1902)
+2025-03-13 22:27:47,679 - WARNING - Game 1902: Not all users appear in chat (only {'user1', 'user2'})
+2025-03-13 22:27:47,680 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:27:48,226 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:27:48,228 - INFO - Raw response: user3
+2025-03-13 22:27:48,228 - INFO - LLM prediction: user3
+2025-03-13 22:27:48,228 - INFO - ✅ Correct prediction
+2025-03-13 22:27:48,228 - INFO - Experiment complete.
+2025-03-13 22:27:48,228 - INFO - Accuracy: 50.00% (5/10)
+2025-03-13 22:27:48,228 - INFO - API Errors: 0
+2025-03-13 22:27:48,229 - INFO - Average latency: 0.79s
+2025-03-13 22:27:48,231 - INFO - Saved intermediate results to claude-sonnet-results.json
+2025-03-13 22:27:48,231 - INFO - 
+Processing file 5/5: inputs/Day_1_Leo.md
+2025-03-13 22:27:48,231 - INFO - Starting experiment on inputs/Day_1_Leo.md with model claude-3-5-sonnet-20240620
+2025-03-13 22:27:48,231 - INFO - Parsing file: inputs/Day_1_Leo.md
+2025-03-13 22:27:48,232 - INFO - Found 10 game blocks in inputs/Day_1_Leo.md
+2025-03-13 22:27:48,232 - INFO - Game 1001: Successfully parsed
+2025-03-13 22:27:48,232 - INFO - Game 1103: Successfully parsed
+2025-03-13 22:27:48,233 - INFO - Game 1201: Successfully parsed
+2025-03-13 22:27:48,233 - INFO - Game 1303: Successfully parsed
+2025-03-13 22:27:48,233 - INFO - Game 1403: Successfully parsed
+2025-03-13 22:27:48,233 - INFO - Game 1503: Successfully parsed
+2025-03-13 22:27:48,233 - INFO - Game 1603: Successfully parsed
+2025-03-13 22:27:48,234 - INFO - Game 1703: Successfully parsed
+2025-03-13 22:27:48,234 - INFO - Game 1803: Successfully parsed
+2025-03-13 22:27:48,234 - INFO - Game 1903: Successfully parsed
+2025-03-13 22:27:48,234 - INFO - Successfully parsed 10/10 games from inputs/Day_1_Leo.md
+2025-03-13 22:27:48,234 - INFO - Found 10 valid games
+2025-03-13 22:27:48,234 - INFO - Processing game 1/10 (ID: 1001)
+2025-03-13 22:27:48,234 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:27:49,356 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:27:49,357 - INFO - Raw response: user2
+2025-03-13 22:27:49,357 - INFO - LLM prediction: user2
+2025-03-13 22:27:49,357 - INFO - ❌ Incorrect prediction
+2025-03-13 22:27:59,363 - INFO - Processing game 2/10 (ID: 1103)
+2025-03-13 22:27:59,363 - WARNING - Game 1103: Not all users appear in chat (only {'user1', 'user3'})
+2025-03-13 22:27:59,363 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:28:00,395 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:28:00,397 - INFO - Raw response: user2
+2025-03-13 22:28:00,397 - INFO - LLM prediction: user2
+2025-03-13 22:28:00,397 - INFO - ✅ Correct prediction
+2025-03-13 22:28:10,401 - INFO - Processing game 3/10 (ID: 1201)
+2025-03-13 22:28:10,401 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:28:11,242 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:28:11,244 - INFO - Raw response: user2
+2025-03-13 22:28:11,244 - INFO - LLM prediction: user2
+2025-03-13 22:28:11,244 - INFO - ✅ Correct prediction
+2025-03-13 22:28:21,249 - INFO - Processing game 4/10 (ID: 1303)
+2025-03-13 22:28:21,250 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:28:22,445 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:28:22,447 - INFO - Raw response: user1
+2025-03-13 22:28:22,447 - INFO - LLM prediction: user1
+2025-03-13 22:28:22,447 - INFO - ❌ Incorrect prediction
+2025-03-13 22:28:32,451 - INFO - Processing game 5/10 (ID: 1403)
+2025-03-13 22:28:32,451 - WARNING - Game 1403: Not all users appear in chat (only {'user1', 'user3'})
+2025-03-13 22:28:32,451 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:28:33,028 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:28:33,030 - INFO - Raw response: user1
+2025-03-13 22:28:33,030 - INFO - LLM prediction: user1
+2025-03-13 22:28:33,030 - INFO - ❌ Incorrect prediction
+2025-03-13 22:28:43,034 - INFO - Processing game 6/10 (ID: 1503)
+2025-03-13 22:28:43,034 - WARNING - Game 1503: Not all users appear in chat (only {'user3', 'user2'})
+2025-03-13 22:28:43,034 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:28:44,436 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:28:44,438 - INFO - Raw response: user1
+2025-03-13 22:28:44,438 - INFO - LLM prediction: user1
+2025-03-13 22:28:44,438 - INFO - ✅ Correct prediction
+2025-03-13 22:28:54,443 - INFO - Processing game 7/10 (ID: 1603)
+2025-03-13 22:28:54,444 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:28:55,439 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:28:55,440 - INFO - Raw response: user3
+2025-03-13 22:28:55,441 - INFO - LLM prediction: user3
+2025-03-13 22:28:55,441 - INFO - ❌ Incorrect prediction
+2025-03-13 22:29:05,446 - INFO - Processing game 8/10 (ID: 1703)
+2025-03-13 22:29:05,446 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:29:06,104 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:29:06,105 - INFO - Raw response: user1
+2025-03-13 22:29:06,105 - INFO - LLM prediction: user1
+2025-03-13 22:29:06,105 - INFO - ❌ Incorrect prediction
+2025-03-13 22:29:16,111 - INFO - Processing game 9/10 (ID: 1803)
+2025-03-13 22:29:16,111 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:29:17,414 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:29:17,415 - INFO - Raw response: user3
+2025-03-13 22:29:17,415 - INFO - LLM prediction: user3
+2025-03-13 22:29:17,415 - INFO - ✅ Correct prediction
+2025-03-13 22:29:27,417 - INFO - Processing game 10/10 (ID: 1903)
+2025-03-13 22:29:27,417 - INFO - Sending query to LLM (claude-3-5-sonnet-20240620)...
+2025-03-13 22:29:28,330 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-03-13 22:29:28,331 - INFO - Raw response: user3
+2025-03-13 22:29:28,331 - INFO - LLM prediction: user3
+2025-03-13 22:29:28,331 - INFO - ❌ Incorrect prediction
+2025-03-13 22:29:28,331 - INFO - Experiment complete.
+2025-03-13 22:29:28,332 - INFO - Accuracy: 40.00% (4/10)
+2025-03-13 22:29:28,332 - INFO - API Errors: 0
+2025-03-13 22:29:28,332 - INFO - Average latency: 1.01s
+2025-03-13 22:29:28,334 - INFO - Saved intermediate results to claude-sonnet-results.json
+2025-03-13 22:29:28,336 - INFO - 
+Experiment complete!
+2025-03-13 22:29:28,336 - INFO - Processed 5/5 files
+2025-03-13 22:29:28,336 - INFO - Total games: 45
+2025-03-13 22:29:28,336 - INFO - Overall accuracy: 44.44% (20/45)
+2025-03-13 22:29:28,336 - INFO - Results saved to claude-sonnet-results.json

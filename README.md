@@ -20,8 +20,14 @@ The experiment script is the core component that:
 
 ### Usage
 
+Start with installing dependencies:
+
 ```bash
-python turing_game_experiment.py --input-dir path/to/log/files --output results.json --model gemini-1.5-pro
+pip install -r requirements.txt 
+```
+
+```bash
+python3 turing_game_experiment.py --input-dir inputs --output claude-sonnet-results.json --model claude-3-5-sonnet-20240620
 ```
 
 Arguments:
@@ -70,7 +76,7 @@ pip install openai anthropic matplotlib pandas numpy
 3. Set up your API keys as environment variables. Create a .env file in the project directory with the following content:
 
 ```bash
-GEMINI_API_KEY=your_openai_api_key
+ANTHROPIC_API_KEY=
 ```
 ## Running the Experiment
 

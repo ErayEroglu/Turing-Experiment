@@ -192,11 +192,11 @@ def query_llm(prompt: str, model: str, config: Dict[str, Any]) -> Dict[str, Any]
     }
 
     try:
-        if model.startswith("gemini"):
-            response = query_gemini(prompt, config.get("gemini_api_key"), model)
+        if model.startswith("claude") and config.get("anthropic_api_key"):
+            response = query_anthropic(prompt, config.get("anthropic_api_key"), model)
             result.update(response)
 
-        elif model.startswith("gpt") or model.startswith("claude"):
+        elif model.startswith("gpt") and config.get("openai_api_key"):
             response = query_openai(prompt, config.get("openai_api_key"), model)
             result.update(response)
 
@@ -254,23 +254,30 @@ def query_openai(prompt: str, api_key: str, model: str) -> Dict[str, Any]:
     except ImportError:
         raise ImportError("OpenAI package not installed. Install with: pip install openai")
 
-def query_gemini(prompt: str, api_key: str, model: str) -> Dict[str, Any]:
-    """Send a prompt to Google's Gemini model and get a response."""
+def query_anthropic(prompt: str, api_key: str, model: str) -> Dict[str, Any]:
+    """Send a prompt to Anthropic's Claude model and get a response."""
     if not api_key:
-        raise ValueError("Gemini API key not provided")
+        raise ValueError("Anthropic API key not provided")
 
     try:
-        import google.generativeai as genai
+        import anthropic
 
-        genai.configure(api_key=api_key)
-        model_instance = genai.GenerativeModel(model)
-        response = model_instance.generate_content(prompt)
-        raw_response = response.text.strip()
-
+        client = anthropic.Anthropic(api_key=api_key)
+        
+        response = client.messages.create(
+            model=model,
+            max_tokens=100,
+            temperature=0,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        
+        raw_response = response.content[0].text.strip()
+        logger.info(f"Raw response: {raw_response}")
+        
         # Extract prediction using regex to be more robust
         import re
         user_match = re.search(r'user\s*(\d+)', raw_response.lower())
-
+        
         if user_match:
             prediction = f"user{user_match.group(1)}"
         else:
@@ -284,7 +291,7 @@ def query_gemini(prompt: str, api_key: str, model: str) -> Dict[str, Any]:
             else:
                 prediction = None
                 logger.warning(f"Could not extract prediction from response: {raw_response}")
-
+                
         return {
             "prediction": prediction,
             "raw_response": raw_response,
@@ -292,7 +299,7 @@ def query_gemini(prompt: str, api_key: str, model: str) -> Dict[str, Any]:
         }
 
     except ImportError:
-        raise ImportError("Google Generative AI package not installed. Install with: pip install google-generativeai")
+        raise ImportError("Anthropic package not installed. Install with: pip install anthropic")
 
 def evaluate_prediction(anonymized_game: Dict, prediction: str) -> bool:
     """Check if the prediction correctly identified the bot."""
@@ -404,7 +411,7 @@ def run_experiment(log_file: str, model: str, config: Dict[str, Any], max_retrie
             })
 
         if i < len(games) - 1:
-            time.sleep(5)
+            time.sleep(10)
 
     # Calculate metrics
     completed_games = len([r for r in results if "error" not in r or not r["error"]])
@@ -433,7 +440,6 @@ def load_api_keys() -> Dict[str, str]:
 
     keys = {
         "openai_api_key": os.getenv("OPENAI_API_KEY"),
-        "gemini_api_key": os.getenv("GEMINI_API_KEY"),
         "anthropic_api_key": os.getenv("ANTHROPIC_API_KEY")
     }
 
@@ -450,7 +456,7 @@ def main():
     parser.add_argument('--input-dir', required=True, help='Directory containing log files to process')
     parser.add_argument('--output', default='results.json', help='Output file for results')
     parser.add_argument('--model', default='gpt-4',
-                        help='LLM model to use (e.g., gpt-4, gemini-1.5-pro, claude-3-opus-20240229)')
+                        help='LLM model to use (e.g., gpt-4, claude-3-opus-20240229)')
     parser.add_argument('--max-retries', type=int, default=5, help='Maximum number of retries for API calls')
     parser.add_argument('--mock', action='store_true', help='Use mock responses for testing without API calls')
     parser.add_argument('--rate-limit', type=float, default=1.0, help='Delay between API calls in seconds')
